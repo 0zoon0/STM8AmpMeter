@@ -1,0 +1,1617 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADC1	stm8s.h	2492;"	macro
+ADC1_AWCRH_RESET_VALUE	stm8s.h	337;"	macro
+ADC1_AWCRL_RESET_VALUE	stm8s.h	338;"	macro
+ADC1_BaseAddress	stm8s.h	2475;"	macro
+ADC1_CR1_ADON	stm8s.h	354;"	macro
+ADC1_CR1_CONT	stm8s.h	353;"	macro
+ADC1_CR1_RESET_VALUE	stm8s.h	328;"	macro
+ADC1_CR1_SPSEL	stm8s.h	352;"	macro
+ADC1_CR2_ALIGN	stm8s.h	358;"	macro
+ADC1_CR2_EXTSEL	stm8s.h	357;"	macro
+ADC1_CR2_EXTTRIG	stm8s.h	356;"	macro
+ADC1_CR2_RESET_VALUE	stm8s.h	329;"	macro
+ADC1_CR2_SCAN	stm8s.h	359;"	macro
+ADC1_CR3_DBUF	stm8s.h	361;"	macro
+ADC1_CR3_OVR	stm8s.h	362;"	macro
+ADC1_CR3_RESET_VALUE	stm8s.h	330;"	macro
+ADC1_CSR_AWD	stm8s.h	347;"	macro
+ADC1_CSR_AWDIE	stm8s.h	349;"	macro
+ADC1_CSR_CH	stm8s.h	350;"	macro
+ADC1_CSR_EOC	stm8s.h	346;"	macro
+ADC1_CSR_EOCIE	stm8s.h	348;"	macro
+ADC1_CSR_RESET_VALUE	stm8s.h	327;"	macro
+ADC1_HTRH_RESET_VALUE	stm8s.h	334;"	macro
+ADC1_HTRL_RESET_VALUE	stm8s.h	333;"	macro
+ADC1_LTRH_RESET_VALUE	stm8s.h	335;"	macro
+ADC1_LTRL_RESET_VALUE	stm8s.h	336;"	macro
+ADC1_TDRH_RESET_VALUE	stm8s.h	332;"	macro
+ADC1_TDRL_RESET_VALUE	stm8s.h	331;"	macro
+ADC1_TypeDef	stm8s.h	322;"	typedef	typeref:struct:ADC1_struct
+ADC1_struct	stm8s.h	282;"	struct
+ADC2	stm8s.h	2497;"	macro
+ADC2_BaseAddress	stm8s.h	2476;"	macro
+ADC2_CR1_ADON	stm8s.h	408;"	macro
+ADC2_CR1_CONT	stm8s.h	407;"	macro
+ADC2_CR1_RESET_VALUE	stm8s.h	391;"	macro
+ADC2_CR1_SPSEL	stm8s.h	406;"	macro
+ADC2_CR2_ALIGN	stm8s.h	412;"	macro
+ADC2_CR2_EXTSEL	stm8s.h	411;"	macro
+ADC2_CR2_EXTTRIG	stm8s.h	410;"	macro
+ADC2_CR2_RESET_VALUE	stm8s.h	392;"	macro
+ADC2_CSR_CH	stm8s.h	404;"	macro
+ADC2_CSR_EOC	stm8s.h	402;"	macro
+ADC2_CSR_EOCIE	stm8s.h	403;"	macro
+ADC2_CSR_RESET_VALUE	stm8s.h	390;"	macro
+ADC2_TDRH_RESET_VALUE	stm8s.h	394;"	macro
+ADC2_TDRL_RESET_VALUE	stm8s.h	393;"	macro
+ADC2_TypeDef	stm8s.h	385;"	typedef	typeref:struct:ADC2_struct
+ADC2_struct	stm8s.h	374;"	struct
+ADC_delay	main.c	9;"	macro	file:
+ADC_started	main.c	14;"	variable
+ADC_time	main.c	12;"	variable
+APR	stm8s.h	427;"	member	struct:AWU_struct
+AREA	stm8s.h	2704;"	macro
+ARR	stm8s.h	1054;"	member	struct:TIM4_struct
+ARR	stm8s.h	1254;"	member	struct:TIM6_struct
+ARRH	stm8s.h	1122;"	member	struct:TIM5_struct
+ARRH	stm8s.h	616;"	member	struct:TIM1_struct
+ARRH	stm8s.h	827;"	member	struct:TIM2_struct
+ARRH	stm8s.h	949;"	member	struct:TIM3_struct
+ARRL	stm8s.h	1123;"	member	struct:TIM5_struct
+ARRL	stm8s.h	617;"	member	struct:TIM1_struct
+ARRL	stm8s.h	828;"	member	struct:TIM2_struct
+ARRL	stm8s.h	950;"	member	struct:TIM3_struct
+AWCRH	stm8s.h	319;"	member	struct:ADC1_struct
+AWCRL	stm8s.h	320;"	member	struct:ADC1_struct
+AWSRH	stm8s.h	317;"	member	struct:ADC1_struct
+AWSRL	stm8s.h	318;"	member	struct:ADC1_struct
+AWU	stm8s.h	2500;"	macro
+AWU_APR_APR	stm8s.h	451;"	macro
+AWU_APR_RESET_VALUE	stm8s.h	436;"	macro
+AWU_BaseAddress	stm8s.h	2462;"	macro
+AWU_CSR_AWUEN	stm8s.h	448;"	macro
+AWU_CSR_AWUF	stm8s.h	447;"	macro
+AWU_CSR_MSR	stm8s.h	449;"	macro
+AWU_CSR_RESET_VALUE	stm8s.h	435;"	macro
+AWU_TBR_AWUTB	stm8s.h	453;"	macro
+AWU_TBR_RESET_VALUE	stm8s.h	437;"	macro
+AWU_TypeDef	stm8s.h	430;"	typedef	typeref:struct:AWU_struct
+AWU_struct	stm8s.h	424;"	struct
+AffBit	stm8s.h	2678;"	macro
+BEEP	stm8s.h	2502;"	macro
+BEEP_BaseAddress	stm8s.h	2463;"	macro
+BEEP_CSR_BEEPDIV	stm8s.h	483;"	macro
+BEEP_CSR_BEEPEN	stm8s.h	482;"	macro
+BEEP_CSR_BEEPSEL	stm8s.h	481;"	macro
+BEEP_CSR_RESET_VALUE	stm8s.h	473;"	macro
+BEEP_TypeDef	stm8s.h	468;"	typedef	typeref:struct:BEEP_struct
+BEEP_struct	stm8s.h	464;"	struct
+BKR	stm8s.h	627;"	member	struct:TIM1_struct
+BRR1	stm8s.h	1755;"	member	struct:UART1_struct
+BRR1	stm8s.h	1853;"	member	struct:UART2_struct
+BRR1	stm8s.h	1961;"	member	struct:UART3_struct
+BRR2	stm8s.h	1756;"	member	struct:UART1_struct
+BRR2	stm8s.h	1854;"	member	struct:UART2_struct
+BRR2	stm8s.h	1962;"	member	struct:UART3_struct
+BTR1	stm8s.h	2179;"	member	struct:__anon5::__anon6::__anon12
+BTR2	stm8s.h	2180;"	member	struct:__anon5::__anon6::__anon12
+BYTE_0	stm8s.h	2685;"	macro
+BYTE_1	stm8s.h	2686;"	macro
+BYTE_2	stm8s.h	2687;"	macro
+BYTE_3	stm8s.h	2688;"	macro
+BitAction	stm8s.h	221;"	typedef	typeref:enum:__anon2
+BitClr	stm8s.h	2706;"	macro
+BitSet	stm8s.h	2707;"	macro
+BitStatus	stm8s.h	221;"	typedef	typeref:enum:__anon2
+BitVal	stm8s.h	2708;"	macro
+CAN	stm8s.h	2505;"	macro
+CAN_BTR1_RESET_VALUE	stm8s.h	2390;"	macro
+CAN_BTR2_RESET_VALUE	stm8s.h	2391;"	macro
+CAN_BaseAddress	stm8s.h	2477;"	macro
+CAN_DGR_LBKM	stm8s.h	2266;"	macro
+CAN_DGR_RESET_VALUE	stm8s.h	2383;"	macro
+CAN_DGR_RX	stm8s.h	2269;"	macro
+CAN_DGR_SAMP	stm8s.h	2268;"	macro
+CAN_DGR_SLIM	stm8s.h	2267;"	macro
+CAN_DGR_TXM2E	stm8s.h	2270;"	macro
+CAN_EIER_BOFIE	stm8s.h	2307;"	macro
+CAN_EIER_EPVIE	stm8s.h	2306;"	macro
+CAN_EIER_ERRIE	stm8s.h	2309;"	macro
+CAN_EIER_EWGIE	stm8s.h	2305;"	macro
+CAN_EIER_LECIE	stm8s.h	2308;"	macro
+CAN_EIER_RESET_VALUE	stm8s.h	2387;"	macro
+CAN_ESR_BOFF	stm8s.h	2298;"	macro
+CAN_ESR_EPVF	stm8s.h	2297;"	macro
+CAN_ESR_EWGF	stm8s.h	2296;"	macro
+CAN_ESR_LEC	stm8s.h	2302;"	macro
+CAN_ESR_LEC0	stm8s.h	2299;"	macro
+CAN_ESR_LEC1	stm8s.h	2300;"	macro
+CAN_ESR_LEC2	stm8s.h	2301;"	macro
+CAN_ESR_RESET_VALUE	stm8s.h	2386;"	macro
+CAN_FCR1_FACT0	stm8s.h	2347;"	macro
+CAN_FCR1_FACT1	stm8s.h	2348;"	macro
+CAN_FCR1_FSC00	stm8s.h	2354;"	macro
+CAN_FCR1_FSC01	stm8s.h	2355;"	macro
+CAN_FCR1_FSC10	stm8s.h	2356;"	macro
+CAN_FCR1_FSC11	stm8s.h	2357;"	macro
+CAN_FCR2_FACT2	stm8s.h	2349;"	macro
+CAN_FCR2_FACT3	stm8s.h	2350;"	macro
+CAN_FCR2_FSC20	stm8s.h	2358;"	macro
+CAN_FCR2_FSC21	stm8s.h	2359;"	macro
+CAN_FCR2_FSC30	stm8s.h	2360;"	macro
+CAN_FCR2_FSC31	stm8s.h	2361;"	macro
+CAN_FCR3_FACT4	stm8s.h	2351;"	macro
+CAN_FCR3_FACT5	stm8s.h	2352;"	macro
+CAN_FCR3_FSC40	stm8s.h	2362;"	macro
+CAN_FCR3_FSC41	stm8s.h	2363;"	macro
+CAN_FCR3_FSC50	stm8s.h	2364;"	macro
+CAN_FCR3_FSC51	stm8s.h	2365;"	macro
+CAN_FCR_RESET_VALUE	stm8s.h	2394;"	macro
+CAN_FMR1_FMH0	stm8s.h	2333;"	macro
+CAN_FMR1_FMH1	stm8s.h	2335;"	macro
+CAN_FMR1_FMH2	stm8s.h	2337;"	macro
+CAN_FMR1_FMH3	stm8s.h	2339;"	macro
+CAN_FMR1_FML0	stm8s.h	2332;"	macro
+CAN_FMR1_FML1	stm8s.h	2334;"	macro
+CAN_FMR1_FML2	stm8s.h	2336;"	macro
+CAN_FMR1_FML3	stm8s.h	2338;"	macro
+CAN_FMR1_RESET_VALUE	stm8s.h	2392;"	macro
+CAN_FMR2_FMH4	stm8s.h	2342;"	macro
+CAN_FMR2_FMH5	stm8s.h	2344;"	macro
+CAN_FMR2_FML4	stm8s.h	2341;"	macro
+CAN_FMR2_FML5	stm8s.h	2343;"	macro
+CAN_FMR2_RESET_VALUE	stm8s.h	2393;"	macro
+CAN_IER_FFIE	stm8s.h	2260;"	macro
+CAN_IER_FMPIE	stm8s.h	2259;"	macro
+CAN_IER_FOVIE	stm8s.h	2261;"	macro
+CAN_IER_RESET_VALUE	stm8s.h	2382;"	macro
+CAN_IER_TMEIE	stm8s.h	2258;"	macro
+CAN_IER_WKUIE	stm8s.h	2262;"	macro
+CAN_MCR_ABOM	stm8s.h	2224;"	macro
+CAN_MCR_AWUM	stm8s.h	2223;"	macro
+CAN_MCR_INRQ	stm8s.h	2218;"	macro
+CAN_MCR_NART	stm8s.h	2222;"	macro
+CAN_MCR_RESET_VALUE	stm8s.h	2377;"	macro
+CAN_MCR_RFLM	stm8s.h	2221;"	macro
+CAN_MCR_SLEEP	stm8s.h	2219;"	macro
+CAN_MCR_TTCM	stm8s.h	2225;"	macro
+CAN_MCR_TXFP	stm8s.h	2220;"	macro
+CAN_MCSR_ABRQ	stm8s.h	2280;"	macro
+CAN_MCSR_ALST	stm8s.h	2283;"	macro
+CAN_MCSR_RESET_VALUE	stm8s.h	2398;"	macro
+CAN_MCSR_RQCP	stm8s.h	2281;"	macro
+CAN_MCSR_TERR	stm8s.h	2284;"	macro
+CAN_MCSR_TXOK	stm8s.h	2282;"	macro
+CAN_MCSR_TXRQ	stm8s.h	2279;"	macro
+CAN_MDLCR_DLC	stm8s.h	2286;"	macro
+CAN_MDLCR_TGT	stm8s.h	2287;"	macro
+CAN_MDLC_RESET_VALUE	stm8s.h	2397;"	macro
+CAN_MFMI_RESET_VALUE	stm8s.h	2396;"	macro
+CAN_MIDR1_IDE	stm8s.h	2290;"	macro
+CAN_MIDR1_RTR	stm8s.h	2289;"	macro
+CAN_MSR_ERRI	stm8s.h	2230;"	macro
+CAN_MSR_INAK	stm8s.h	2228;"	macro
+CAN_MSR_RESET_VALUE	stm8s.h	2378;"	macro
+CAN_MSR_RX	stm8s.h	2233;"	macro
+CAN_MSR_SLAK	stm8s.h	2229;"	macro
+CAN_MSR_TX	stm8s.h	2232;"	macro
+CAN_MSR_WKUI	stm8s.h	2231;"	macro
+CAN_PSR_PS0	stm8s.h	2274;"	macro
+CAN_PSR_PS1	stm8s.h	2275;"	macro
+CAN_PSR_PS2	stm8s.h	2276;"	macro
+CAN_PSR_RESET_VALUE	stm8s.h	2384;"	macro
+CAN_RECR_REC0	stm8s.h	2322;"	macro
+CAN_RECR_REC1	stm8s.h	2323;"	macro
+CAN_RECR_REC2	stm8s.h	2324;"	macro
+CAN_RECR_REC3	stm8s.h	2325;"	macro
+CAN_RECR_REC4	stm8s.h	2326;"	macro
+CAN_RECR_REC5	stm8s.h	2327;"	macro
+CAN_RECR_REC6	stm8s.h	2328;"	macro
+CAN_RECR_REC7	stm8s.h	2329;"	macro
+CAN_RECR_RESET_VALUE	stm8s.h	2389;"	macro
+CAN_RFR_FMP01	stm8s.h	2252;"	macro
+CAN_RFR_FOVR	stm8s.h	2254;"	macro
+CAN_RFR_FULL	stm8s.h	2253;"	macro
+CAN_RFR_RESET_VALUE	stm8s.h	2381;"	macro
+CAN_RFR_RFOM	stm8s.h	2255;"	macro
+CAN_TECR_RESET_VALUE	stm8s.h	2388;"	macro
+CAN_TECR_TEC0	stm8s.h	2312;"	macro
+CAN_TECR_TEC1	stm8s.h	2313;"	macro
+CAN_TECR_TEC2	stm8s.h	2314;"	macro
+CAN_TECR_TEC3	stm8s.h	2315;"	macro
+CAN_TECR_TEC4	stm8s.h	2316;"	macro
+CAN_TECR_TEC5	stm8s.h	2317;"	macro
+CAN_TECR_TEC6	stm8s.h	2318;"	macro
+CAN_TECR_TEC7	stm8s.h	2319;"	macro
+CAN_TPR_CODE0	stm8s.h	2244;"	macro
+CAN_TPR_LOW0	stm8s.h	2248;"	macro
+CAN_TPR_LOW1	stm8s.h	2249;"	macro
+CAN_TPR_LOW2	stm8s.h	2250;"	macro
+CAN_TPR_RESET_VALUE	stm8s.h	2380;"	macro
+CAN_TPR_TME0	stm8s.h	2245;"	macro
+CAN_TPR_TME1	stm8s.h	2246;"	macro
+CAN_TPR_TME2	stm8s.h	2247;"	macro
+CAN_TSR_RESET_VALUE	stm8s.h	2379;"	macro
+CAN_TSR_RQCP0	stm8s.h	2236;"	macro
+CAN_TSR_RQCP012	stm8s.h	2239;"	macro
+CAN_TSR_RQCP1	stm8s.h	2237;"	macro
+CAN_TSR_RQCP2	stm8s.h	2238;"	macro
+CAN_TSR_TXOK0	stm8s.h	2240;"	macro
+CAN_TSR_TXOK1	stm8s.h	2241;"	macro
+CAN_TSR_TXOK2	stm8s.h	2242;"	macro
+CAN_TypeDef	stm8s.h	2212;"	typedef	typeref:struct:__anon5
+CCER1	stm8s.h	1117;"	member	struct:TIM5_struct
+CCER1	stm8s.h	610;"	member	struct:TIM1_struct
+CCER1	stm8s.h	822;"	member	struct:TIM2_struct
+CCER1	stm8s.h	945;"	member	struct:TIM3_struct
+CCER2	stm8s.h	1118;"	member	struct:TIM5_struct
+CCER2	stm8s.h	611;"	member	struct:TIM1_struct
+CCER2	stm8s.h	823;"	member	struct:TIM2_struct
+CCMR1	stm8s.h	1114;"	member	struct:TIM5_struct
+CCMR1	stm8s.h	606;"	member	struct:TIM1_struct
+CCMR1	stm8s.h	819;"	member	struct:TIM2_struct
+CCMR1	stm8s.h	943;"	member	struct:TIM3_struct
+CCMR2	stm8s.h	1115;"	member	struct:TIM5_struct
+CCMR2	stm8s.h	607;"	member	struct:TIM1_struct
+CCMR2	stm8s.h	820;"	member	struct:TIM2_struct
+CCMR2	stm8s.h	944;"	member	struct:TIM3_struct
+CCMR3	stm8s.h	1116;"	member	struct:TIM5_struct
+CCMR3	stm8s.h	608;"	member	struct:TIM1_struct
+CCMR3	stm8s.h	821;"	member	struct:TIM2_struct
+CCMR4	stm8s.h	609;"	member	struct:TIM1_struct
+CCMR_TIxDirect_Set	stm8s.h	739;"	macro
+CCOR	stm8s.h	503;"	member	struct:CLK_struct
+CCR1H	stm8s.h	1124;"	member	struct:TIM5_struct
+CCR1H	stm8s.h	619;"	member	struct:TIM1_struct
+CCR1H	stm8s.h	829;"	member	struct:TIM2_struct
+CCR1H	stm8s.h	951;"	member	struct:TIM3_struct
+CCR1L	stm8s.h	1125;"	member	struct:TIM5_struct
+CCR1L	stm8s.h	620;"	member	struct:TIM1_struct
+CCR1L	stm8s.h	830;"	member	struct:TIM2_struct
+CCR1L	stm8s.h	952;"	member	struct:TIM3_struct
+CCR2H	stm8s.h	1126;"	member	struct:TIM5_struct
+CCR2H	stm8s.h	621;"	member	struct:TIM1_struct
+CCR2H	stm8s.h	831;"	member	struct:TIM2_struct
+CCR2H	stm8s.h	953;"	member	struct:TIM3_struct
+CCR2L	stm8s.h	1127;"	member	struct:TIM5_struct
+CCR2L	stm8s.h	622;"	member	struct:TIM1_struct
+CCR2L	stm8s.h	832;"	member	struct:TIM2_struct
+CCR2L	stm8s.h	954;"	member	struct:TIM3_struct
+CCR3H	stm8s.h	1128;"	member	struct:TIM5_struct
+CCR3H	stm8s.h	623;"	member	struct:TIM1_struct
+CCR3H	stm8s.h	833;"	member	struct:TIM2_struct
+CCR3L	stm8s.h	1129;"	member	struct:TIM5_struct
+CCR3L	stm8s.h	624;"	member	struct:TIM1_struct
+CCR3L	stm8s.h	834;"	member	struct:TIM2_struct
+CCR4H	stm8s.h	625;"	member	struct:TIM1_struct
+CCR4L	stm8s.h	626;"	member	struct:TIM1_struct
+CCRH	stm8s.h	1326;"	member	struct:I2C_struct
+CCRL	stm8s.h	1325;"	member	struct:I2C_struct
+CFG	stm8s.h	2587;"	macro
+CFG_BaseAddress	stm8s.h	2478;"	macro
+CFG_GCR_AL	stm8s.h	2429;"	macro
+CFG_GCR_RESET_VALUE	stm8s.h	2418;"	macro
+CFG_GCR_SWD	stm8s.h	2428;"	macro
+CFG_TypeDef	stm8s.h	2412;"	typedef	typeref:struct:CFG_struct
+CFG_struct	stm8s.h	2408;"	struct
+CKDIVR	stm8s.h	500;"	member	struct:CLK_struct
+CLEAR_ANODES	led.c	79;"	macro	file:
+CLK	stm8s.h	2508;"	macro
+CLK_BaseAddress	stm8s.h	2459;"	macro
+CLK_CCOR_CCOBSY	stm8s.h	578;"	macro
+CLK_CCOR_CCOEN	stm8s.h	581;"	macro
+CLK_CCOR_CCORDY	stm8s.h	579;"	macro
+CLK_CCOR_CCOSEL	stm8s.h	580;"	macro
+CLK_CCOR_RESET_VALUE	stm8s.h	524;"	macro
+CLK_CKDIVR_CPUDIV	stm8s.h	555;"	macro
+CLK_CKDIVR_HSIDIV	stm8s.h	554;"	macro
+CLK_CKDIVR_RESET_VALUE	stm8s.h	520;"	macro
+CLK_CMSR_CKM	stm8s.h	545;"	macro
+CLK_CMSR_RESET_VALUE	stm8s.h	517;"	macro
+CLK_CSSR_AUX	stm8s.h	575;"	macro
+CLK_CSSR_CSSD	stm8s.h	573;"	macro
+CLK_CSSR_CSSDIE	stm8s.h	574;"	macro
+CLK_CSSR_CSSEN	stm8s.h	576;"	macro
+CLK_CSSR_RESET_VALUE	stm8s.h	523;"	macro
+CLK_ECKR_HSEEN	stm8s.h	543;"	macro
+CLK_ECKR_HSERDY	stm8s.h	542;"	macro
+CLK_ECKR_RESET_VALUE	stm8s.h	516;"	macro
+CLK_HSITRIMR_HSITRIM	stm8s.h	583;"	macro
+CLK_HSITRIMR_RESET_VALUE	stm8s.h	525;"	macro
+CLK_ICKR_FHWU	stm8s.h	538;"	macro
+CLK_ICKR_HSIEN	stm8s.h	540;"	macro
+CLK_ICKR_HSIRDY	stm8s.h	539;"	macro
+CLK_ICKR_LSIEN	stm8s.h	537;"	macro
+CLK_ICKR_LSIRDY	stm8s.h	536;"	macro
+CLK_ICKR_RESET_VALUE	stm8s.h	515;"	macro
+CLK_ICKR_SWUAH	stm8s.h	535;"	macro
+CLK_PCKENR1_I2C	stm8s.h	567;"	macro
+CLK_PCKENR1_RESET_VALUE	stm8s.h	521;"	macro
+CLK_PCKENR1_SPI	stm8s.h	566;"	macro
+CLK_PCKENR1_TIM1	stm8s.h	557;"	macro
+CLK_PCKENR1_TIM2	stm8s.h	559;"	macro
+CLK_PCKENR1_TIM3	stm8s.h	558;"	macro
+CLK_PCKENR1_TIM4	stm8s.h	561;"	macro
+CLK_PCKENR1_TIM5	stm8s.h	560;"	macro
+CLK_PCKENR1_TIM6	stm8s.h	562;"	macro
+CLK_PCKENR1_UART1	stm8s.h	565;"	macro
+CLK_PCKENR1_UART2	stm8s.h	564;"	macro
+CLK_PCKENR1_UART3	stm8s.h	563;"	macro
+CLK_PCKENR2_ADC	stm8s.h	570;"	macro
+CLK_PCKENR2_AWU	stm8s.h	571;"	macro
+CLK_PCKENR2_CAN	stm8s.h	569;"	macro
+CLK_PCKENR2_RESET_VALUE	stm8s.h	522;"	macro
+CLK_SWCR_RESET_VALUE	stm8s.h	519;"	macro
+CLK_SWCR_SWBSY	stm8s.h	552;"	macro
+CLK_SWCR_SWEN	stm8s.h	551;"	macro
+CLK_SWCR_SWIEN	stm8s.h	550;"	macro
+CLK_SWCR_SWIF	stm8s.h	549;"	macro
+CLK_SWIMCCR_RESET_VALUE	stm8s.h	526;"	macro
+CLK_SWIMCCR_SWIMDIV	stm8s.h	585;"	macro
+CLK_SWR_RESET_VALUE	stm8s.h	518;"	macro
+CLK_SWR_SWI	stm8s.h	547;"	macro
+CLK_TypeDef	stm8s.h	509;"	typedef	typeref:struct:CLK_struct
+CLK_struct	stm8s.h	492;"	struct
+CMSR	stm8s.h	497;"	member	struct:CLK_struct
+CNTR	stm8s.h	1052;"	member	struct:TIM4_struct
+CNTR	stm8s.h	1252;"	member	struct:TIM6_struct
+CNTRH	stm8s.h	1119;"	member	struct:TIM5_struct
+CNTRH	stm8s.h	612;"	member	struct:TIM1_struct
+CNTRH	stm8s.h	824;"	member	struct:TIM2_struct
+CNTRH	stm8s.h	946;"	member	struct:TIM3_struct
+CNTRL	stm8s.h	1120;"	member	struct:TIM5_struct
+CNTRL	stm8s.h	613;"	member	struct:TIM1_struct
+CNTRL	stm8s.h	825;"	member	struct:TIM2_struct
+CNTRL	stm8s.h	947;"	member	struct:TIM3_struct
+CONST	stm8s.h	116;"	macro
+CONST	stm8s.h	122;"	macro
+CONST	stm8s.h	136;"	macro
+CPU_CC_I1I0	stm8s.h	1446;"	macro
+CR	stm8s.h	1619;"	member	struct:WWDG_struct
+CR1	stm8s.h	1044;"	member	struct:TIM4_struct
+CR1	stm8s.h	1107;"	member	struct:TIM5_struct
+CR1	stm8s.h	1246;"	member	struct:TIM6_struct
+CR1	stm8s.h	1314;"	member	struct:I2C_struct
+CR1	stm8s.h	1459;"	member	struct:EXTI_struct
+CR1	stm8s.h	1500;"	member	struct:FLASH_struct
+CR1	stm8s.h	1682;"	member	struct:SPI_struct
+CR1	stm8s.h	1757;"	member	struct:UART1_struct
+CR1	stm8s.h	1855;"	member	struct:UART2_struct
+CR1	stm8s.h	1963;"	member	struct:UART3_struct
+CR1	stm8s.h	258;"	member	struct:GPIO_struct
+CR1	stm8s.h	306;"	member	struct:ADC1_struct
+CR1	stm8s.h	377;"	member	struct:ADC2_struct
+CR1	stm8s.h	598;"	member	struct:TIM1_struct
+CR1	stm8s.h	810;"	member	struct:TIM2_struct
+CR1	stm8s.h	938;"	member	struct:TIM3_struct
+CR2	stm8s.h	1108;"	member	struct:TIM5_struct
+CR2	stm8s.h	1247;"	member	struct:TIM6_struct
+CR2	stm8s.h	1315;"	member	struct:I2C_struct
+CR2	stm8s.h	1460;"	member	struct:EXTI_struct
+CR2	stm8s.h	1501;"	member	struct:FLASH_struct
+CR2	stm8s.h	1683;"	member	struct:SPI_struct
+CR2	stm8s.h	1758;"	member	struct:UART1_struct
+CR2	stm8s.h	1856;"	member	struct:UART2_struct
+CR2	stm8s.h	1964;"	member	struct:UART3_struct
+CR2	stm8s.h	259;"	member	struct:GPIO_struct
+CR2	stm8s.h	307;"	member	struct:ADC1_struct
+CR2	stm8s.h	378;"	member	struct:ADC2_struct
+CR2	stm8s.h	599;"	member	struct:TIM1_struct
+CR3	stm8s.h	1759;"	member	struct:UART1_struct
+CR3	stm8s.h	1857;"	member	struct:UART2_struct
+CR3	stm8s.h	1965;"	member	struct:UART3_struct
+CR3	stm8s.h	308;"	member	struct:ADC1_struct
+CR4	stm8s.h	1760;"	member	struct:UART1_struct
+CR4	stm8s.h	1858;"	member	struct:UART2_struct
+CR4	stm8s.h	1966;"	member	struct:UART3_struct
+CR5	stm8s.h	1761;"	member	struct:UART1_struct
+CR5	stm8s.h	1859;"	member	struct:UART2_struct
+CR6	stm8s.h	1860;"	member	struct:UART2_struct
+CR6	stm8s.h	1968;"	member	struct:UART3_struct
+CRCPR	stm8s.h	1687;"	member	struct:SPI_struct
+CSR	stm8s.h	305;"	member	struct:ADC1_struct
+CSR	stm8s.h	376;"	member	struct:ADC2_struct
+CSR	stm8s.h	426;"	member	struct:AWU_struct
+CSR	stm8s.h	466;"	member	struct:BEEP_struct
+CSSR	stm8s.h	502;"	member	struct:CLK_struct
+ChgBit	stm8s.h	2677;"	macro
+ClrBit	stm8s.h	2675;"	macro
+Config	stm8s.h	2189;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon12
+DB0RH	stm8s.h	284;"	member	struct:ADC1_struct
+DB0RL	stm8s.h	285;"	member	struct:ADC1_struct
+DB1RH	stm8s.h	286;"	member	struct:ADC1_struct
+DB1RL	stm8s.h	287;"	member	struct:ADC1_struct
+DB2RH	stm8s.h	288;"	member	struct:ADC1_struct
+DB2RL	stm8s.h	289;"	member	struct:ADC1_struct
+DB3RH	stm8s.h	290;"	member	struct:ADC1_struct
+DB3RL	stm8s.h	291;"	member	struct:ADC1_struct
+DB4RH	stm8s.h	292;"	member	struct:ADC1_struct
+DB4RL	stm8s.h	293;"	member	struct:ADC1_struct
+DB5RH	stm8s.h	294;"	member	struct:ADC1_struct
+DB5RL	stm8s.h	295;"	member	struct:ADC1_struct
+DB6RH	stm8s.h	296;"	member	struct:ADC1_struct
+DB6RL	stm8s.h	297;"	member	struct:ADC1_struct
+DB7RH	stm8s.h	298;"	member	struct:ADC1_struct
+DB7RL	stm8s.h	299;"	member	struct:ADC1_struct
+DB8RH	stm8s.h	300;"	member	struct:ADC1_struct
+DB8RL	stm8s.h	301;"	member	struct:ADC1_struct
+DB9RH	stm8s.h	302;"	member	struct:ADC1_struct
+DB9RL	stm8s.h	303;"	member	struct:ADC1_struct
+DDR	stm8s.h	257;"	member	struct:GPIO_struct
+DGR	stm8s.h	2058;"	member	struct:__anon5
+DISABLE	stm8s.h	223;"	enumerator	enum:__anon3
+DM	stm8s.h	2589;"	macro
+DM_BaseAddress	stm8s.h	2480;"	macro
+DR	stm8s.h	1320;"	member	struct:I2C_struct
+DR	stm8s.h	1686;"	member	struct:SPI_struct
+DR	stm8s.h	1754;"	member	struct:UART1_struct
+DR	stm8s.h	1852;"	member	struct:UART2_struct
+DR	stm8s.h	1960;"	member	struct:UART3_struct
+DRH	stm8s.h	309;"	member	struct:ADC1_struct
+DRH	stm8s.h	380;"	member	struct:ADC2_struct
+DRL	stm8s.h	310;"	member	struct:ADC1_struct
+DRL	stm8s.h	381;"	member	struct:ADC2_struct
+DTR	stm8s.h	628;"	member	struct:TIM1_struct
+DUKR	stm8s.h	1510;"	member	struct:FLASH_struct
+ECKR	stm8s.h	495;"	member	struct:CLK_struct
+EEPROM	stm8s.h	115;"	macro
+EEPROM	stm8s.h	121;"	macro
+EEPROM	stm8s.h	135;"	macro
+EGR	stm8s.h	1051;"	member	struct:TIM4_struct
+EGR	stm8s.h	1113;"	member	struct:TIM5_struct
+EGR	stm8s.h	1251;"	member	struct:TIM6_struct
+EGR	stm8s.h	605;"	member	struct:TIM1_struct
+EGR	stm8s.h	818;"	member	struct:TIM2_struct
+EGR	stm8s.h	942;"	member	struct:TIM3_struct
+EIER	stm8s.h	2176;"	member	struct:__anon5::__anon6::__anon12
+ENABLE	stm8s.h	223;"	enumerator	enum:__anon3
+ERROR	stm8s.h	226;"	enumerator	enum:__anon4
+ESR	stm8s.h	2175;"	member	struct:__anon5::__anon6::__anon12
+ETR	stm8s.h	601;"	member	struct:TIM1_struct
+EXTI	stm8s.h	2510;"	macro
+EXTI_BaseAddress	stm8s.h	2457;"	macro
+EXTI_CR1_PAIS	stm8s.h	1482;"	macro
+EXTI_CR1_PBIS	stm8s.h	1481;"	macro
+EXTI_CR1_PCIS	stm8s.h	1480;"	macro
+EXTI_CR1_PDIS	stm8s.h	1479;"	macro
+EXTI_CR1_RESET_VALUE	stm8s.h	1468;"	macro
+EXTI_CR2_PEIS	stm8s.h	1485;"	macro
+EXTI_CR2_RESET_VALUE	stm8s.h	1469;"	macro
+EXTI_CR2_TLIS	stm8s.h	1484;"	macro
+EXTI_TypeDef	stm8s.h	1462;"	typedef	typeref:struct:EXTI_struct
+EXTI_struct	stm8s.h	1457;"	struct
+ErrorStatus	stm8s.h	226;"	typedef	typeref:enum:__anon4
+F0R1	stm8s.h	2109;"	member	struct:__anon5::__anon6::__anon9
+F0R2	stm8s.h	2110;"	member	struct:__anon5::__anon6::__anon9
+F0R3	stm8s.h	2111;"	member	struct:__anon5::__anon6::__anon9
+F0R4	stm8s.h	2112;"	member	struct:__anon5::__anon6::__anon9
+F0R5	stm8s.h	2113;"	member	struct:__anon5::__anon6::__anon9
+F0R6	stm8s.h	2114;"	member	struct:__anon5::__anon6::__anon9
+F0R7	stm8s.h	2115;"	member	struct:__anon5::__anon6::__anon9
+F0R8	stm8s.h	2116;"	member	struct:__anon5::__anon6::__anon9
+F1R1	stm8s.h	2118;"	member	struct:__anon5::__anon6::__anon9
+F1R2	stm8s.h	2119;"	member	struct:__anon5::__anon6::__anon9
+F1R3	stm8s.h	2120;"	member	struct:__anon5::__anon6::__anon9
+F1R4	stm8s.h	2121;"	member	struct:__anon5::__anon6::__anon9
+F1R5	stm8s.h	2122;"	member	struct:__anon5::__anon6::__anon9
+F1R6	stm8s.h	2123;"	member	struct:__anon5::__anon6::__anon9
+F1R7	stm8s.h	2124;"	member	struct:__anon5::__anon6::__anon9
+F1R8	stm8s.h	2125;"	member	struct:__anon5::__anon6::__anon9
+F2R1	stm8s.h	2131;"	member	struct:__anon5::__anon6::__anon10
+F2R2	stm8s.h	2132;"	member	struct:__anon5::__anon6::__anon10
+F2R3	stm8s.h	2133;"	member	struct:__anon5::__anon6::__anon10
+F2R4	stm8s.h	2134;"	member	struct:__anon5::__anon6::__anon10
+F2R5	stm8s.h	2135;"	member	struct:__anon5::__anon6::__anon10
+F2R6	stm8s.h	2136;"	member	struct:__anon5::__anon6::__anon10
+F2R7	stm8s.h	2137;"	member	struct:__anon5::__anon6::__anon10
+F2R8	stm8s.h	2138;"	member	struct:__anon5::__anon6::__anon10
+F3R1	stm8s.h	2140;"	member	struct:__anon5::__anon6::__anon10
+F3R2	stm8s.h	2141;"	member	struct:__anon5::__anon6::__anon10
+F3R3	stm8s.h	2142;"	member	struct:__anon5::__anon6::__anon10
+F3R4	stm8s.h	2143;"	member	struct:__anon5::__anon6::__anon10
+F3R5	stm8s.h	2144;"	member	struct:__anon5::__anon6::__anon10
+F3R6	stm8s.h	2145;"	member	struct:__anon5::__anon6::__anon10
+F3R7	stm8s.h	2146;"	member	struct:__anon5::__anon6::__anon10
+F3R8	stm8s.h	2147;"	member	struct:__anon5::__anon6::__anon10
+F4R1	stm8s.h	2153;"	member	struct:__anon5::__anon6::__anon11
+F4R2	stm8s.h	2154;"	member	struct:__anon5::__anon6::__anon11
+F4R3	stm8s.h	2155;"	member	struct:__anon5::__anon6::__anon11
+F4R4	stm8s.h	2156;"	member	struct:__anon5::__anon6::__anon11
+F4R5	stm8s.h	2157;"	member	struct:__anon5::__anon6::__anon11
+F4R6	stm8s.h	2158;"	member	struct:__anon5::__anon6::__anon11
+F4R7	stm8s.h	2159;"	member	struct:__anon5::__anon6::__anon11
+F4R8	stm8s.h	2160;"	member	struct:__anon5::__anon6::__anon11
+F5R1	stm8s.h	2162;"	member	struct:__anon5::__anon6::__anon11
+F5R2	stm8s.h	2163;"	member	struct:__anon5::__anon6::__anon11
+F5R3	stm8s.h	2164;"	member	struct:__anon5::__anon6::__anon11
+F5R4	stm8s.h	2165;"	member	struct:__anon5::__anon6::__anon11
+F5R5	stm8s.h	2166;"	member	struct:__anon5::__anon6::__anon11
+F5R6	stm8s.h	2167;"	member	struct:__anon5::__anon6::__anon11
+F5R7	stm8s.h	2168;"	member	struct:__anon5::__anon6::__anon11
+F5R8	stm8s.h	2169;"	member	struct:__anon5::__anon6::__anon11
+FALSE	stm8s.h	219;"	enumerator	enum:__anon1
+FAR	stm8s.h	112;"	macro
+FAR	stm8s.h	118;"	macro
+FAR	stm8s.h	132;"	macro
+FCR1	stm8s.h	2184;"	member	struct:__anon5::__anon6::__anon12
+FCR2	stm8s.h	2185;"	member	struct:__anon5::__anon6::__anon12
+FCR3	stm8s.h	2186;"	member	struct:__anon5::__anon6::__anon12
+FLASH	stm8s.h	2512;"	macro
+FLASH_BaseAddress	stm8s.h	2456;"	macro
+FLASH_CR1_AHALT	stm8s.h	1534;"	macro
+FLASH_CR1_FIX	stm8s.h	1536;"	macro
+FLASH_CR1_HALT	stm8s.h	1533;"	macro
+FLASH_CR1_IE	stm8s.h	1535;"	macro
+FLASH_CR1_RESET_VALUE	stm8s.h	1518;"	macro
+FLASH_CR2_ERASE	stm8s.h	1540;"	macro
+FLASH_CR2_FPRG	stm8s.h	1541;"	macro
+FLASH_CR2_OPT	stm8s.h	1538;"	macro
+FLASH_CR2_PRG	stm8s.h	1542;"	macro
+FLASH_CR2_RESET_VALUE	stm8s.h	1519;"	macro
+FLASH_CR2_WPRG	stm8s.h	1539;"	macro
+FLASH_DUKR_DUK	stm8s.h	1558;"	macro
+FLASH_DUKR_RESET_VALUE	stm8s.h	1523;"	macro
+FLASH_IAPSR_DUL	stm8s.h	1551;"	macro
+FLASH_IAPSR_EOP	stm8s.h	1552;"	macro
+FLASH_IAPSR_HVOFF	stm8s.h	1550;"	macro
+FLASH_IAPSR_PUL	stm8s.h	1553;"	macro
+FLASH_IAPSR_RESET_VALUE	stm8s.h	1521;"	macro
+FLASH_IAPSR_WR_PG_DIS	stm8s.h	1554;"	macro
+FLASH_NCR2_NERASE	stm8s.h	1546;"	macro
+FLASH_NCR2_NFPRG	stm8s.h	1547;"	macro
+FLASH_NCR2_NOPT	stm8s.h	1544;"	macro
+FLASH_NCR2_NPRG	stm8s.h	1548;"	macro
+FLASH_NCR2_NWPRG	stm8s.h	1545;"	macro
+FLASH_NCR2_RESET_VALUE	stm8s.h	1520;"	macro
+FLASH_PUKR_PUK	stm8s.h	1556;"	macro
+FLASH_PUKR_RESET_VALUE	stm8s.h	1522;"	macro
+FLASH_TypeDef	stm8s.h	1512;"	typedef	typeref:struct:FLASH_struct
+FLASH_struct	stm8s.h	1498;"	struct
+FMR1	stm8s.h	2182;"	member	struct:__anon5::__anon6::__anon12
+FMR2	stm8s.h	2183;"	member	struct:__anon5::__anon6::__anon12
+FPR	stm8s.h	1503;"	member	struct:FLASH_struct
+FR01	stm8s.h	2086;"	member	struct:__anon5::__anon6::__anon8
+FR02	stm8s.h	2087;"	member	struct:__anon5::__anon6::__anon8
+FR03	stm8s.h	2088;"	member	struct:__anon5::__anon6::__anon8
+FR04	stm8s.h	2089;"	member	struct:__anon5::__anon6::__anon8
+FR05	stm8s.h	2090;"	member	struct:__anon5::__anon6::__anon8
+FR06	stm8s.h	2091;"	member	struct:__anon5::__anon6::__anon8
+FR07	stm8s.h	2092;"	member	struct:__anon5::__anon6::__anon8
+FR08	stm8s.h	2093;"	member	struct:__anon5::__anon6::__anon8
+FR09	stm8s.h	2095;"	member	struct:__anon5::__anon6::__anon8
+FR10	stm8s.h	2096;"	member	struct:__anon5::__anon6::__anon8
+FR11	stm8s.h	2097;"	member	struct:__anon5::__anon6::__anon8
+FR12	stm8s.h	2098;"	member	struct:__anon5::__anon6::__anon8
+FR13	stm8s.h	2099;"	member	struct:__anon5::__anon6::__anon8
+FR14	stm8s.h	2100;"	member	struct:__anon5::__anon6::__anon8
+FR15	stm8s.h	2101;"	member	struct:__anon5::__anon6::__anon8
+FR16	stm8s.h	2102;"	member	struct:__anon5::__anon6::__anon8
+FREQR	stm8s.h	1316;"	member	struct:I2C_struct
+Filter	stm8s.h	2104;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon8
+Filter01	stm8s.h	2127;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon9
+Filter23	stm8s.h	2149;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon10
+Filter45	stm8s.h	2171;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon11
+FlagStatus	stm8s.h	221;"	typedef	typeref:enum:__anon2
+FunctionalState	stm8s.h	223;"	typedef	typeref:enum:__anon3
+GCR	stm8s.h	2410;"	member	struct:CFG_struct
+GPIOA	stm8s.h	2516;"	macro
+GPIOA_BaseAddress	stm8s.h	2447;"	macro
+GPIOB	stm8s.h	2518;"	macro
+GPIOB_BaseAddress	stm8s.h	2448;"	macro
+GPIOC	stm8s.h	2520;"	macro
+GPIOC_BaseAddress	stm8s.h	2449;"	macro
+GPIOD	stm8s.h	2522;"	macro
+GPIOD_BaseAddress	stm8s.h	2450;"	macro
+GPIOE	stm8s.h	2524;"	macro
+GPIOE_BaseAddress	stm8s.h	2451;"	macro
+GPIOF	stm8s.h	2526;"	macro
+GPIOF_BaseAddress	stm8s.h	2452;"	macro
+GPIOG	stm8s.h	2530;"	macro
+GPIOG_BaseAddress	stm8s.h	2453;"	macro
+GPIOH	stm8s.h	2535;"	macro
+GPIOH_BaseAddress	stm8s.h	2454;"	macro
+GPIOI	stm8s.h	2536;"	macro
+GPIOI_BaseAddress	stm8s.h	2455;"	macro
+GPIO_CR1_RESET_VALUE	stm8s.h	269;"	macro
+GPIO_CR2_RESET_VALUE	stm8s.h	270;"	macro
+GPIO_DDR_RESET_VALUE	stm8s.h	268;"	macro
+GPIO_ODR_RESET_VALUE	stm8s.h	267;"	macro
+GPIO_PIN3	led.c	41;"	macro	file:
+GPIO_TypeDef	stm8s.h	261;"	typedef	typeref:struct:GPIO_struct
+GPIO_struct	stm8s.h	253;"	struct
+GTR	stm8s.h	1762;"	member	struct:UART1_struct
+GTR	stm8s.h	1861;"	member	struct:UART2_struct
+Global_time	main.c	11;"	variable
+HSE_VALUE	stm8s.h	101;"	macro
+HSE_VALUE	stm8s.h	99;"	macro
+HSITRIMR	stm8s.h	506;"	member	struct:CLK_struct
+HSI_VALUE	stm8s.h	108;"	macro
+HTRH	stm8s.h	313;"	member	struct:ADC1_struct
+HTRL	stm8s.h	314;"	member	struct:ADC1_struct
+I2C	stm8s.h	2545;"	macro
+I2C_BaseAddress	stm8s.h	2465;"	macro
+I2C_CCRH_CCR	stm8s.h	1406;"	macro
+I2C_CCRH_DUTY	stm8s.h	1405;"	macro
+I2C_CCRH_FS	stm8s.h	1404;"	macro
+I2C_CCRH_RESET_VALUE	stm8s.h	1347;"	macro
+I2C_CCRL_CCR	stm8s.h	1402;"	macro
+I2C_CCRL_RESET_VALUE	stm8s.h	1346;"	macro
+I2C_CR1_ENGC	stm8s.h	1359;"	macro
+I2C_CR1_NOSTRETCH	stm8s.h	1358;"	macro
+I2C_CR1_PE	stm8s.h	1360;"	macro
+I2C_CR1_RESET_VALUE	stm8s.h	1336;"	macro
+I2C_CR2_ACK	stm8s.h	1364;"	macro
+I2C_CR2_POS	stm8s.h	1363;"	macro
+I2C_CR2_RESET_VALUE	stm8s.h	1337;"	macro
+I2C_CR2_START	stm8s.h	1366;"	macro
+I2C_CR2_STOP	stm8s.h	1365;"	macro
+I2C_CR2_SWRST	stm8s.h	1362;"	macro
+I2C_DR_DR	stm8s.h	1377;"	macro
+I2C_DR_RESET_VALUE	stm8s.h	1341;"	macro
+I2C_FREQR_FREQ	stm8s.h	1368;"	macro
+I2C_FREQR_RESET_VALUE	stm8s.h	1338;"	macro
+I2C_ITR_ITBUFEN	stm8s.h	1398;"	macro
+I2C_ITR_ITERREN	stm8s.h	1400;"	macro
+I2C_ITR_ITEVTEN	stm8s.h	1399;"	macro
+I2C_ITR_RESET_VALUE	stm8s.h	1345;"	macro
+I2C_OARH_ADD	stm8s.h	1375;"	macro
+I2C_OARH_ADDCONF	stm8s.h	1374;"	macro
+I2C_OARH_ADDMODE	stm8s.h	1373;"	macro
+I2C_OARH_RESET_VALUE	stm8s.h	1340;"	macro
+I2C_OARL_ADD	stm8s.h	1370;"	macro
+I2C_OARL_ADD0	stm8s.h	1371;"	macro
+I2C_OARL_RESET_VALUE	stm8s.h	1339;"	macro
+I2C_SR1_ADD10	stm8s.h	1382;"	macro
+I2C_SR1_ADDR	stm8s.h	1384;"	macro
+I2C_SR1_BTF	stm8s.h	1383;"	macro
+I2C_SR1_RESET_VALUE	stm8s.h	1342;"	macro
+I2C_SR1_RXNE	stm8s.h	1380;"	macro
+I2C_SR1_SB	stm8s.h	1385;"	macro
+I2C_SR1_STOPF	stm8s.h	1381;"	macro
+I2C_SR1_TXE	stm8s.h	1379;"	macro
+I2C_SR2_AF	stm8s.h	1389;"	macro
+I2C_SR2_ARLO	stm8s.h	1390;"	macro
+I2C_SR2_BERR	stm8s.h	1391;"	macro
+I2C_SR2_OVR	stm8s.h	1388;"	macro
+I2C_SR2_RESET_VALUE	stm8s.h	1343;"	macro
+I2C_SR2_WUFH	stm8s.h	1387;"	macro
+I2C_SR3_BUSY	stm8s.h	1395;"	macro
+I2C_SR3_GENCALL	stm8s.h	1393;"	macro
+I2C_SR3_MSL	stm8s.h	1396;"	macro
+I2C_SR3_RESET_VALUE	stm8s.h	1344;"	macro
+I2C_SR3_TRA	stm8s.h	1394;"	macro
+I2C_TRISER_RESET_VALUE	stm8s.h	1348;"	macro
+I2C_TRISER_TRISE	stm8s.h	1408;"	macro
+I2C_TypeDef	stm8s.h	1330;"	typedef	typeref:struct:I2C_struct
+I2C_struct	stm8s.h	1312;"	struct
+IAPSR	stm8s.h	1505;"	member	struct:FLASH_struct
+ICKR	stm8s.h	494;"	member	struct:CLK_struct
+ICR	stm8s.h	1684;"	member	struct:SPI_struct
+IDR	stm8s.h	256;"	member	struct:GPIO_struct
+IER	stm8s.h	1049;"	member	struct:TIM4_struct
+IER	stm8s.h	1110;"	member	struct:TIM5_struct
+IER	stm8s.h	1249;"	member	struct:TIM6_struct
+IER	stm8s.h	2057;"	member	struct:__anon5
+IER	stm8s.h	602;"	member	struct:TIM1_struct
+IER	stm8s.h	815;"	member	struct:TIM2_struct
+IER	stm8s.h	939;"	member	struct:TIM3_struct
+INTERRUPT	stm8s.h	2655;"	macro
+INTERRUPT	stm8s.h	2657;"	macro
+INTERRUPT_HANDLER	stm8s.h	2633;"	macro
+INTERRUPT_HANDLER	stm8s.h	2638;"	macro
+INTERRUPT_HANDLER	stm8s.h	2645;"	macro
+INTERRUPT_HANDLER_TRAP	stm8s.h	2634;"	macro
+INTERRUPT_HANDLER_TRAP	stm8s.h	2639;"	macro
+INTERRUPT_HANDLER_TRAP	stm8s.h	2648;"	macro
+IN_RAM	stm8s.h	159;"	macro
+IN_RAM	stm8s.h	161;"	macro
+IN_RAM	stm8s.h	163;"	macro
+IN_RAM	stm8s.h	166;"	macro
+ISPR1	stm8s.h	1421;"	member	struct:ITC_struct
+ISPR2	stm8s.h	1422;"	member	struct:ITC_struct
+ISPR3	stm8s.h	1423;"	member	struct:ITC_struct
+ISPR4	stm8s.h	1424;"	member	struct:ITC_struct
+ISPR5	stm8s.h	1425;"	member	struct:ITC_struct
+ISPR6	stm8s.h	1426;"	member	struct:ITC_struct
+ISPR7	stm8s.h	1427;"	member	struct:ITC_struct
+ISPR8	stm8s.h	1428;"	member	struct:ITC_struct
+IS_FUNCTIONALSTATE_OK	stm8s.h	224;"	macro
+IS_STATE_VALUE_OK	stm8s.h	2691;"	macro
+ITC	stm8s.h	2585;"	macro
+ITC_BaseAddress	stm8s.h	2479;"	macro
+ITC_SPRX_RESET_VALUE	stm8s.h	1436;"	macro
+ITC_TypeDef	stm8s.h	1430;"	typedef	typeref:struct:ITC_struct
+ITC_struct	stm8s.h	1419;"	struct
+ITR	stm8s.h	1324;"	member	struct:I2C_struct
+ITStatus	stm8s.h	221;"	typedef	typeref:enum:__anon2
+IWDG	stm8s.h	2542;"	macro
+IWDG_BaseAddress	stm8s.h	2461;"	macro
+IWDG_PR_RESET_VALUE	stm8s.h	1605;"	macro
+IWDG_RLR_RESET_VALUE	stm8s.h	1606;"	macro
+IWDG_TypeDef	stm8s.h	1599;"	typedef	typeref:struct:IWDG_struct
+IWDG_struct	stm8s.h	1593;"	struct
+KR	stm8s.h	1595;"	member	struct:IWDG_struct
+LED_delay	main.c	8;"	macro	file:
+LED_init	led.c	120;"	function
+LED_init	led.h	28;"	prototype	signature:()
+LSI_VALUE	stm8s.h	109;"	macro
+LTRH	stm8s.h	315;"	member	struct:ADC1_struct
+LTRL	stm8s.h	316;"	member	struct:ADC1_struct
+MCR	stm8s.h	2052;"	member	struct:__anon5
+MCSR	stm8s.h	2065;"	member	struct:__anon5::__anon6::__anon7
+MDAR1	stm8s.h	2071;"	member	struct:__anon5::__anon6::__anon7
+MDAR1	stm8s.h	2199;"	member	struct:__anon5::__anon6::__anon13
+MDAR2	stm8s.h	2072;"	member	struct:__anon5::__anon6::__anon7
+MDAR2	stm8s.h	2200;"	member	struct:__anon5::__anon6::__anon13
+MDAR3	stm8s.h	2073;"	member	struct:__anon5::__anon6::__anon7
+MDAR3	stm8s.h	2201;"	member	struct:__anon5::__anon6::__anon13
+MDAR4	stm8s.h	2074;"	member	struct:__anon5::__anon6::__anon7
+MDAR4	stm8s.h	2202;"	member	struct:__anon5::__anon6::__anon13
+MDAR5	stm8s.h	2075;"	member	struct:__anon5::__anon6::__anon7
+MDAR5	stm8s.h	2203;"	member	struct:__anon5::__anon6::__anon13
+MDAR6	stm8s.h	2076;"	member	struct:__anon5::__anon6::__anon7
+MDAR6	stm8s.h	2204;"	member	struct:__anon5::__anon6::__anon13
+MDAR7	stm8s.h	2077;"	member	struct:__anon5::__anon6::__anon7
+MDAR7	stm8s.h	2205;"	member	struct:__anon5::__anon6::__anon13
+MDAR8	stm8s.h	2078;"	member	struct:__anon5::__anon6::__anon7
+MDAR8	stm8s.h	2206;"	member	struct:__anon5::__anon6::__anon13
+MDLCR	stm8s.h	2066;"	member	struct:__anon5::__anon6::__anon7
+MDLCR	stm8s.h	2194;"	member	struct:__anon5::__anon6::__anon13
+MEMCPY	stm8s.h	126;"	macro
+MEMCPY	stm8s.h	129;"	macro
+MFMI	stm8s.h	2193;"	member	struct:__anon5::__anon6::__anon13
+MIDR1	stm8s.h	2067;"	member	struct:__anon5::__anon6::__anon7
+MIDR1	stm8s.h	2195;"	member	struct:__anon5::__anon6::__anon13
+MIDR2	stm8s.h	2068;"	member	struct:__anon5::__anon6::__anon7
+MIDR2	stm8s.h	2196;"	member	struct:__anon5::__anon6::__anon13
+MIDR3	stm8s.h	2069;"	member	struct:__anon5::__anon6::__anon7
+MIDR3	stm8s.h	2197;"	member	struct:__anon5::__anon6::__anon13
+MIDR4	stm8s.h	2070;"	member	struct:__anon5::__anon6::__anon7
+MIDR4	stm8s.h	2198;"	member	struct:__anon5::__anon6::__anon13
+MSR	stm8s.h	2053;"	member	struct:__anon5
+MTSRH	stm8s.h	2080;"	member	struct:__anon5::__anon6::__anon7
+MTSRH	stm8s.h	2208;"	member	struct:__anon5::__anon6::__anon13
+MTSRL	stm8s.h	2079;"	member	struct:__anon5::__anon6::__anon7
+MTSRL	stm8s.h	2207;"	member	struct:__anon5::__anon6::__anon13
+MskBit	stm8s.h	2681;"	macro
+NCR2	stm8s.h	1502;"	member	struct:FLASH_struct
+NEAR	stm8s.h	113;"	macro
+NEAR	stm8s.h	119;"	macro
+NEAR	stm8s.h	133;"	macro
+NFPR	stm8s.h	1504;"	member	struct:FLASH_struct
+NOPT1	stm8s.h	1572;"	member	struct:OPT_struct
+NOPT2	stm8s.h	1574;"	member	struct:OPT_struct
+NOPT3	stm8s.h	1576;"	member	struct:OPT_struct
+NOPT4	stm8s.h	1578;"	member	struct:OPT_struct
+NOPT5	stm8s.h	1580;"	member	struct:OPT_struct
+NOPT7	stm8s.h	1584;"	member	struct:OPT_struct
+N_current	led.c	72;"	variable	file:
+NonHandledInterrupt	stm8_interrupt_vector.c	15;"	function	signature:(void)
+OARH	stm8s.h	1318;"	member	struct:I2C_struct
+OARL	stm8s.h	1317;"	member	struct:I2C_struct
+ODR	stm8s.h	255;"	member	struct:GPIO_struct
+OISR	stm8s.h	629;"	member	struct:TIM1_struct
+OPT	stm8s.h	2514;"	macro
+OPT0	stm8s.h	1570;"	member	struct:OPT_struct
+OPT1	stm8s.h	1571;"	member	struct:OPT_struct
+OPT2	stm8s.h	1573;"	member	struct:OPT_struct
+OPT3	stm8s.h	1575;"	member	struct:OPT_struct
+OPT4	stm8s.h	1577;"	member	struct:OPT_struct
+OPT5	stm8s.h	1579;"	member	struct:OPT_struct
+OPT7	stm8s.h	1583;"	member	struct:OPT_struct
+OPT_BaseAddress	stm8s.h	2446;"	macro
+OPT_TypeDef	stm8s.h	1586;"	typedef	typeref:struct:OPT_struct
+OPT_struct	stm8s.h	1568;"	struct
+PA_CR1	led.c	29;"	macro	file:
+PA_DDR	led.c	33;"	macro	file:
+PA_IDR	led.c	37;"	macro	file:
+PA_ODR	led.c	25;"	macro	file:
+PB_BLANK	led.c	84;"	macro	file:
+PB_CR1	led.c	30;"	macro	file:
+PB_DDR	led.c	34;"	macro	file:
+PB_IDR	led.c	38;"	macro	file:
+PB_ODR	led.c	26;"	macro	file:
+PB_bits	led.c	85;"	variable	file:
+PCKENR1	stm8s.h	501;"	member	struct:CLK_struct
+PCKENR2	stm8s.h	504;"	member	struct:CLK_struct
+PC_BLANK	led.c	90;"	macro	file:
+PC_CR1	led.c	31;"	macro	file:
+PC_DDR	led.c	35;"	macro	file:
+PC_IDR	led.c	39;"	macro	file:
+PC_ODR	led.c	27;"	macro	file:
+PC_bits	led.c	91;"	variable	file:
+PD_BLANK	led.c	99;"	macro	file:
+PD_CR1	led.c	32;"	macro	file:
+PD_DDR	led.c	36;"	macro	file:
+PD_IDR	led.c	40;"	macro	file:
+PD_ODR	led.c	28;"	macro	file:
+PD_bits	led.c	97;"	variable	file:
+PR	stm8s.h	1596;"	member	struct:IWDG_struct
+PSCR	stm8s.h	1053;"	member	struct:TIM4_struct
+PSCR	stm8s.h	1121;"	member	struct:TIM5_struct
+PSCR	stm8s.h	1253;"	member	struct:TIM6_struct
+PSCR	stm8s.h	1763;"	member	struct:UART1_struct
+PSCR	stm8s.h	1862;"	member	struct:UART2_struct
+PSCR	stm8s.h	826;"	member	struct:TIM2_struct
+PSCR	stm8s.h	948;"	member	struct:TIM3_struct
+PSCRH	stm8s.h	614;"	member	struct:TIM1_struct
+PSCRL	stm8s.h	615;"	member	struct:TIM1_struct
+PSR	stm8s.h	2059;"	member	struct:__anon5
+PUKR	stm8s.h	1508;"	member	struct:FLASH_struct
+Page	stm8s.h	2211;"	member	struct:__anon5	typeref:union:__anon5::__anon6
+PointerAttr	stm8s.h	146;"	macro
+PointerAttr	stm8s.h	149;"	macro
+RCR	stm8s.h	618;"	member	struct:TIM1_struct
+RECR	stm8s.h	2178;"	member	struct:__anon5::__anon6::__anon12
+RESERVED	stm8s.h	1967;"	member	struct:UART3_struct
+RESERVED	stm8s.h	304;"	member	struct:ADC1_struct
+RESERVED	stm8s.h	379;"	member	struct:ADC2_struct
+RESERVED	stm8s.h	496;"	member	struct:CLK_struct
+RESERVED1	stm8s.h	1046;"	member	struct:TIM4_struct
+RESERVED1	stm8s.h	1319;"	member	struct:I2C_struct
+RESERVED1	stm8s.h	1506;"	member	struct:FLASH_struct
+RESERVED1	stm8s.h	1581;"	member	struct:OPT_struct
+RESERVED1	stm8s.h	505;"	member	struct:CLK_struct
+RESERVED1	stm8s.h	812;"	member	struct:TIM2_struct
+RESERVED2	stm8s.h	1047;"	member	struct:TIM4_struct
+RESERVED2	stm8s.h	1328;"	member	struct:I2C_struct
+RESERVED2	stm8s.h	1507;"	member	struct:FLASH_struct
+RESERVED2	stm8s.h	1582;"	member	struct:OPT_struct
+RESERVED2	stm8s.h	813;"	member	struct:TIM2_struct
+RESERVED3	stm8s.h	1509;"	member	struct:FLASH_struct
+RESET	stm8s.h	221;"	enumerator	enum:__anon2
+RFR	stm8s.h	2056;"	member	struct:__anon5
+RLR	stm8s.h	1597;"	member	struct:IWDG_struct
+RST	stm8s.h	2539;"	macro
+RST_BaseAddress	stm8s.h	2458;"	macro
+RST_SR_EMCF	stm8s.h	1665;"	macro
+RST_SR_ILLOPF	stm8s.h	1667;"	macro
+RST_SR_IWDGF	stm8s.h	1668;"	macro
+RST_SR_SWIMF	stm8s.h	1666;"	macro
+RST_SR_WWDGF	stm8s.h	1669;"	macro
+RST_TypeDef	stm8s.h	1659;"	typedef	typeref:struct:RST_struct
+RST_struct	stm8s.h	1655;"	struct
+RXCRCR	stm8s.h	1688;"	member	struct:SPI_struct
+Reserved1	stm8s.h	2181;"	member	struct:__anon5::__anon6::__anon12
+Reserved2	stm8s.h	2187;"	member	struct:__anon5::__anon6::__anon12
+RxFIFO	stm8s.h	2210;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon13
+S16_MAX	stm8s.h	232;"	macro
+S16_MIN	stm8s.h	233;"	macro
+S32_MAX	stm8s.h	235;"	macro
+S32_MIN	stm8s.h	236;"	macro
+S8_MAX	stm8s.h	229;"	macro
+S8_MIN	stm8s.h	230;"	macro
+SET	stm8s.h	221;"	enumerator	enum:__anon2
+SMCR	stm8s.h	1109;"	member	struct:TIM5_struct
+SMCR	stm8s.h	1248;"	member	struct:TIM6_struct
+SMCR	stm8s.h	600;"	member	struct:TIM1_struct
+SPI	stm8s.h	2544;"	macro
+SPI_BaseAddress	stm8s.h	2464;"	macro
+SPI_CR1_BR	stm8s.h	1716;"	macro
+SPI_CR1_CPHA	stm8s.h	1719;"	macro
+SPI_CR1_CPOL	stm8s.h	1718;"	macro
+SPI_CR1_LSBFIRST	stm8s.h	1714;"	macro
+SPI_CR1_MSTR	stm8s.h	1717;"	macro
+SPI_CR1_RESET_VALUE	stm8s.h	1697;"	macro
+SPI_CR1_SPE	stm8s.h	1715;"	macro
+SPI_CR2_BDM	stm8s.h	1721;"	macro
+SPI_CR2_BDOE	stm8s.h	1722;"	macro
+SPI_CR2_CRCEN	stm8s.h	1723;"	macro
+SPI_CR2_CRCNEXT	stm8s.h	1724;"	macro
+SPI_CR2_RESET_VALUE	stm8s.h	1698;"	macro
+SPI_CR2_RXONLY	stm8s.h	1725;"	macro
+SPI_CR2_SSI	stm8s.h	1727;"	macro
+SPI_CR2_SSM	stm8s.h	1726;"	macro
+SPI_CRCPR_RESET_VALUE	stm8s.h	1702;"	macro
+SPI_DR_RESET_VALUE	stm8s.h	1701;"	macro
+SPI_ICR_ERRIE	stm8s.h	1731;"	macro
+SPI_ICR_RESET_VALUE	stm8s.h	1699;"	macro
+SPI_ICR_RXEI	stm8s.h	1730;"	macro
+SPI_ICR_TXEI	stm8s.h	1729;"	macro
+SPI_ICR_WKIE	stm8s.h	1732;"	macro
+SPI_RXCRCR_RESET_VALUE	stm8s.h	1703;"	macro
+SPI_SR_BSY	stm8s.h	1734;"	macro
+SPI_SR_CRCERR	stm8s.h	1737;"	macro
+SPI_SR_MODF	stm8s.h	1736;"	macro
+SPI_SR_OVR	stm8s.h	1735;"	macro
+SPI_SR_RESET_VALUE	stm8s.h	1700;"	macro
+SPI_SR_RXNE	stm8s.h	1740;"	macro
+SPI_SR_TXE	stm8s.h	1739;"	macro
+SPI_SR_WKUP	stm8s.h	1738;"	macro
+SPI_TXCRCR_RESET_VALUE	stm8s.h	1704;"	macro
+SPI_TypeDef	stm8s.h	1691;"	typedef	typeref:struct:SPI_struct
+SPI_struct	stm8s.h	1680;"	struct
+SR	stm8s.h	1657;"	member	struct:RST_struct
+SR	stm8s.h	1685;"	member	struct:SPI_struct
+SR	stm8s.h	1753;"	member	struct:UART1_struct
+SR	stm8s.h	1851;"	member	struct:UART2_struct
+SR	stm8s.h	1959;"	member	struct:UART3_struct
+SR1	stm8s.h	1050;"	member	struct:TIM4_struct
+SR1	stm8s.h	1111;"	member	struct:TIM5_struct
+SR1	stm8s.h	1250;"	member	struct:TIM6_struct
+SR1	stm8s.h	1321;"	member	struct:I2C_struct
+SR1	stm8s.h	603;"	member	struct:TIM1_struct
+SR1	stm8s.h	816;"	member	struct:TIM2_struct
+SR1	stm8s.h	940;"	member	struct:TIM3_struct
+SR2	stm8s.h	1112;"	member	struct:TIM5_struct
+SR2	stm8s.h	1322;"	member	struct:I2C_struct
+SR2	stm8s.h	604;"	member	struct:TIM1_struct
+SR2	stm8s.h	817;"	member	struct:TIM2_struct
+SR2	stm8s.h	941;"	member	struct:TIM3_struct
+SR3	stm8s.h	1323;"	member	struct:I2C_struct
+STM8S003	stm8s.h	42;"	macro
+STRINGVECTOR	stm8s.h	2643;"	macro
+SUCCESS	stm8s.h	226;"	enumerator	enum:__anon4
+SWCR	stm8s.h	499;"	member	struct:CLK_struct
+SWIMCCR	stm8s.h	507;"	member	struct:CLK_struct
+SWR	stm8s.h	498;"	member	struct:CLK_struct
+SetBit	stm8s.h	2674;"	macro
+TBR	stm8s.h	428;"	member	struct:AWU_struct
+TDRH	stm8s.h	311;"	member	struct:ADC1_struct
+TDRH	stm8s.h	382;"	member	struct:ADC2_struct
+TDRL	stm8s.h	312;"	member	struct:ADC1_struct
+TDRL	stm8s.h	383;"	member	struct:ADC2_struct
+TECR	stm8s.h	2177;"	member	struct:__anon5::__anon6::__anon12
+TIM1	stm8s.h	2561;"	macro
+TIM1_ARRH_ARR	stm8s.h	765;"	macro
+TIM1_ARRH_RESET_VALUE	stm8s.h	655;"	macro
+TIM1_ARRL_ARR	stm8s.h	766;"	macro
+TIM1_ARRL_RESET_VALUE	stm8s.h	656;"	macro
+TIM1_BKR_AOE	stm8s.h	783;"	macro
+TIM1_BKR_BKE	stm8s.h	785;"	macro
+TIM1_BKR_BKP	stm8s.h	784;"	macro
+TIM1_BKR_LOCK	stm8s.h	788;"	macro
+TIM1_BKR_MOE	stm8s.h	782;"	macro
+TIM1_BKR_OSSI	stm8s.h	787;"	macro
+TIM1_BKR_OSSR	stm8s.h	786;"	macro
+TIM1_BKR_RESET_VALUE	stm8s.h	666;"	macro
+TIM1_BaseAddress	stm8s.h	2469;"	macro
+TIM1_CCER1_CC1E	stm8s.h	748;"	macro
+TIM1_CCER1_CC1NE	stm8s.h	746;"	macro
+TIM1_CCER1_CC1NP	stm8s.h	745;"	macro
+TIM1_CCER1_CC1P	stm8s.h	747;"	macro
+TIM1_CCER1_CC2E	stm8s.h	744;"	macro
+TIM1_CCER1_CC2NE	stm8s.h	742;"	macro
+TIM1_CCER1_CC2NP	stm8s.h	741;"	macro
+TIM1_CCER1_CC2P	stm8s.h	743;"	macro
+TIM1_CCER1_RESET_VALUE	stm8s.h	649;"	macro
+TIM1_CCER2_CC3E	stm8s.h	755;"	macro
+TIM1_CCER2_CC3NE	stm8s.h	753;"	macro
+TIM1_CCER2_CC3NP	stm8s.h	752;"	macro
+TIM1_CCER2_CC3P	stm8s.h	754;"	macro
+TIM1_CCER2_CC4E	stm8s.h	751;"	macro
+TIM1_CCER2_CC4P	stm8s.h	750;"	macro
+TIM1_CCER2_RESET_VALUE	stm8s.h	650;"	macro
+TIM1_CCMR1_RESET_VALUE	stm8s.h	645;"	macro
+TIM1_CCMR2_RESET_VALUE	stm8s.h	646;"	macro
+TIM1_CCMR3_RESET_VALUE	stm8s.h	647;"	macro
+TIM1_CCMR4_RESET_VALUE	stm8s.h	648;"	macro
+TIM1_CCMR_CCxS	stm8s.h	737;"	macro
+TIM1_CCMR_ICxF	stm8s.h	733;"	macro
+TIM1_CCMR_ICxPSC	stm8s.h	732;"	macro
+TIM1_CCMR_OCM	stm8s.h	734;"	macro
+TIM1_CCMR_OCxFE	stm8s.h	736;"	macro
+TIM1_CCMR_OCxPE	stm8s.h	735;"	macro
+TIM1_CCR1H_CCR1	stm8s.h	770;"	macro
+TIM1_CCR1H_RESET_VALUE	stm8s.h	658;"	macro
+TIM1_CCR1L_CCR1	stm8s.h	771;"	macro
+TIM1_CCR1L_RESET_VALUE	stm8s.h	659;"	macro
+TIM1_CCR2H_CCR2	stm8s.h	773;"	macro
+TIM1_CCR2H_RESET_VALUE	stm8s.h	660;"	macro
+TIM1_CCR2L_CCR2	stm8s.h	774;"	macro
+TIM1_CCR2L_RESET_VALUE	stm8s.h	661;"	macro
+TIM1_CCR3H_CCR3	stm8s.h	776;"	macro
+TIM1_CCR3H_RESET_VALUE	stm8s.h	662;"	macro
+TIM1_CCR3L_CCR3	stm8s.h	777;"	macro
+TIM1_CCR3L_RESET_VALUE	stm8s.h	663;"	macro
+TIM1_CCR4H_CCR4	stm8s.h	779;"	macro
+TIM1_CCR4H_RESET_VALUE	stm8s.h	664;"	macro
+TIM1_CCR4L_CCR4	stm8s.h	780;"	macro
+TIM1_CCR4L_RESET_VALUE	stm8s.h	665;"	macro
+TIM1_CNTRH_CNT	stm8s.h	757;"	macro
+TIM1_CNTRH_RESET_VALUE	stm8s.h	651;"	macro
+TIM1_CNTRL_CNT	stm8s.h	759;"	macro
+TIM1_CNTRL_RESET_VALUE	stm8s.h	652;"	macro
+TIM1_CR1_ARPE	stm8s.h	678;"	macro
+TIM1_CR1_CEN	stm8s.h	684;"	macro
+TIM1_CR1_CMS	stm8s.h	679;"	macro
+TIM1_CR1_DIR	stm8s.h	680;"	macro
+TIM1_CR1_OPM	stm8s.h	681;"	macro
+TIM1_CR1_RESET_VALUE	stm8s.h	637;"	macro
+TIM1_CR1_UDIS	stm8s.h	683;"	macro
+TIM1_CR1_URS	stm8s.h	682;"	macro
+TIM1_CR2_CCPC	stm8s.h	689;"	macro
+TIM1_CR2_COMS	stm8s.h	688;"	macro
+TIM1_CR2_MMS	stm8s.h	687;"	macro
+TIM1_CR2_RESET_VALUE	stm8s.h	638;"	macro
+TIM1_CR2_TI1S	stm8s.h	686;"	macro
+TIM1_DTR_DTG	stm8s.h	790;"	macro
+TIM1_DTR_RESET_VALUE	stm8s.h	667;"	macro
+TIM1_EGR_BG	stm8s.h	723;"	macro
+TIM1_EGR_CC1G	stm8s.h	729;"	macro
+TIM1_EGR_CC2G	stm8s.h	728;"	macro
+TIM1_EGR_CC3G	stm8s.h	727;"	macro
+TIM1_EGR_CC4G	stm8s.h	726;"	macro
+TIM1_EGR_COMG	stm8s.h	725;"	macro
+TIM1_EGR_RESET_VALUE	stm8s.h	644;"	macro
+TIM1_EGR_TG	stm8s.h	724;"	macro
+TIM1_EGR_UG	stm8s.h	730;"	macro
+TIM1_ETR_ECE	stm8s.h	696;"	macro
+TIM1_ETR_ETF	stm8s.h	698;"	macro
+TIM1_ETR_ETP	stm8s.h	695;"	macro
+TIM1_ETR_ETPS	stm8s.h	697;"	macro
+TIM1_ETR_RESET_VALUE	stm8s.h	640;"	macro
+TIM1_IER_BIE	stm8s.h	700;"	macro
+TIM1_IER_CC1IE	stm8s.h	706;"	macro
+TIM1_IER_CC2IE	stm8s.h	705;"	macro
+TIM1_IER_CC3IE	stm8s.h	704;"	macro
+TIM1_IER_CC4IE	stm8s.h	703;"	macro
+TIM1_IER_COMIE	stm8s.h	702;"	macro
+TIM1_IER_RESET_VALUE	stm8s.h	641;"	macro
+TIM1_IER_TIE	stm8s.h	701;"	macro
+TIM1_IER_UIE	stm8s.h	707;"	macro
+TIM1_OISR_OIS1	stm8s.h	798;"	macro
+TIM1_OISR_OIS1N	stm8s.h	797;"	macro
+TIM1_OISR_OIS2	stm8s.h	796;"	macro
+TIM1_OISR_OIS2N	stm8s.h	795;"	macro
+TIM1_OISR_OIS3	stm8s.h	794;"	macro
+TIM1_OISR_OIS3N	stm8s.h	793;"	macro
+TIM1_OISR_OIS4	stm8s.h	792;"	macro
+TIM1_OISR_RESET_VALUE	stm8s.h	668;"	macro
+TIM1_PSCH_PSC	stm8s.h	761;"	macro
+TIM1_PSCL_PSC	stm8s.h	763;"	macro
+TIM1_PSCRH_RESET_VALUE	stm8s.h	653;"	macro
+TIM1_PSCRL_RESET_VALUE	stm8s.h	654;"	macro
+TIM1_RCR_REP	stm8s.h	768;"	macro
+TIM1_RCR_RESET_VALUE	stm8s.h	657;"	macro
+TIM1_SMCR_MSM	stm8s.h	691;"	macro
+TIM1_SMCR_RESET_VALUE	stm8s.h	639;"	macro
+TIM1_SMCR_SMS	stm8s.h	693;"	macro
+TIM1_SMCR_TS	stm8s.h	692;"	macro
+TIM1_SR1_BIF	stm8s.h	709;"	macro
+TIM1_SR1_CC1IF	stm8s.h	715;"	macro
+TIM1_SR1_CC2IF	stm8s.h	714;"	macro
+TIM1_SR1_CC3IF	stm8s.h	713;"	macro
+TIM1_SR1_CC4IF	stm8s.h	712;"	macro
+TIM1_SR1_COMIF	stm8s.h	711;"	macro
+TIM1_SR1_RESET_VALUE	stm8s.h	642;"	macro
+TIM1_SR1_TIF	stm8s.h	710;"	macro
+TIM1_SR1_UIF	stm8s.h	716;"	macro
+TIM1_SR2_CC1OF	stm8s.h	721;"	macro
+TIM1_SR2_CC2OF	stm8s.h	720;"	macro
+TIM1_SR2_CC3OF	stm8s.h	719;"	macro
+TIM1_SR2_CC4OF	stm8s.h	718;"	macro
+TIM1_SR2_RESET_VALUE	stm8s.h	643;"	macro
+TIM1_TypeDef	stm8s.h	631;"	typedef	typeref:struct:TIM1_struct
+TIM1_UPD_OVF_TRG_BRK_IRQHandler	stm8_interrupt_vector.c	6;"	prototype	file:	signature:(void)
+TIM1_struct	stm8s.h	596;"	struct
+TIM2	stm8s.h	2566;"	macro
+TIM2_ARRH_ARR	stm8s.h	916;"	macro
+TIM2_ARRH_RESET_VALUE	stm8s.h	855;"	macro
+TIM2_ARRL_ARR	stm8s.h	917;"	macro
+TIM2_ARRL_RESET_VALUE	stm8s.h	856;"	macro
+TIM2_BaseAddress	stm8s.h	2470;"	macro
+TIM2_CCER1_CC1E	stm8s.h	906;"	macro
+TIM2_CCER1_CC1P	stm8s.h	905;"	macro
+TIM2_CCER1_CC2E	stm8s.h	904;"	macro
+TIM2_CCER1_CC2P	stm8s.h	903;"	macro
+TIM2_CCER1_RESET_VALUE	stm8s.h	850;"	macro
+TIM2_CCER2_CC3E	stm8s.h	909;"	macro
+TIM2_CCER2_CC3P	stm8s.h	908;"	macro
+TIM2_CCER2_RESET_VALUE	stm8s.h	851;"	macro
+TIM2_CCMR1_RESET_VALUE	stm8s.h	847;"	macro
+TIM2_CCMR2_RESET_VALUE	stm8s.h	848;"	macro
+TIM2_CCMR3_RESET_VALUE	stm8s.h	849;"	macro
+TIM2_CCMR_CCxS	stm8s.h	901;"	macro
+TIM2_CCMR_ICxF	stm8s.h	898;"	macro
+TIM2_CCMR_ICxPSC	stm8s.h	897;"	macro
+TIM2_CCMR_OCM	stm8s.h	899;"	macro
+TIM2_CCMR_OCxPE	stm8s.h	900;"	macro
+TIM2_CCR1H_CCR1	stm8s.h	919;"	macro
+TIM2_CCR1H_RESET_VALUE	stm8s.h	857;"	macro
+TIM2_CCR1L_CCR1	stm8s.h	920;"	macro
+TIM2_CCR1L_RESET_VALUE	stm8s.h	858;"	macro
+TIM2_CCR2H_CCR2	stm8s.h	922;"	macro
+TIM2_CCR2H_RESET_VALUE	stm8s.h	859;"	macro
+TIM2_CCR2L_CCR2	stm8s.h	923;"	macro
+TIM2_CCR2L_RESET_VALUE	stm8s.h	860;"	macro
+TIM2_CCR3H_CCR3	stm8s.h	925;"	macro
+TIM2_CCR3H_RESET_VALUE	stm8s.h	861;"	macro
+TIM2_CCR3L_CCR3	stm8s.h	926;"	macro
+TIM2_CCR3L_RESET_VALUE	stm8s.h	862;"	macro
+TIM2_CNTRH_CNT	stm8s.h	911;"	macro
+TIM2_CNTRH_RESET_VALUE	stm8s.h	852;"	macro
+TIM2_CNTRL_CNT	stm8s.h	912;"	macro
+TIM2_CNTRL_RESET_VALUE	stm8s.h	853;"	macro
+TIM2_CR1_ARPE	stm8s.h	872;"	macro
+TIM2_CR1_CEN	stm8s.h	876;"	macro
+TIM2_CR1_OPM	stm8s.h	873;"	macro
+TIM2_CR1_RESET_VALUE	stm8s.h	842;"	macro
+TIM2_CR1_UDIS	stm8s.h	875;"	macro
+TIM2_CR1_URS	stm8s.h	874;"	macro
+TIM2_EGR_CC1G	stm8s.h	894;"	macro
+TIM2_EGR_CC2G	stm8s.h	893;"	macro
+TIM2_EGR_CC3G	stm8s.h	892;"	macro
+TIM2_EGR_RESET_VALUE	stm8s.h	846;"	macro
+TIM2_EGR_UG	stm8s.h	895;"	macro
+TIM2_IER_CC1IE	stm8s.h	880;"	macro
+TIM2_IER_CC2IE	stm8s.h	879;"	macro
+TIM2_IER_CC3IE	stm8s.h	878;"	macro
+TIM2_IER_RESET_VALUE	stm8s.h	843;"	macro
+TIM2_IER_UIE	stm8s.h	881;"	macro
+TIM2_PSCR_PSC	stm8s.h	914;"	macro
+TIM2_PSCR_RESET_VALUE	stm8s.h	854;"	macro
+TIM2_SR1_CC1IF	stm8s.h	885;"	macro
+TIM2_SR1_CC2IF	stm8s.h	884;"	macro
+TIM2_SR1_CC3IF	stm8s.h	883;"	macro
+TIM2_SR1_RESET_VALUE	stm8s.h	844;"	macro
+TIM2_SR1_UIF	stm8s.h	886;"	macro
+TIM2_SR2_CC1OF	stm8s.h	890;"	macro
+TIM2_SR2_CC2OF	stm8s.h	889;"	macro
+TIM2_SR2_CC3OF	stm8s.h	888;"	macro
+TIM2_SR2_RESET_VALUE	stm8s.h	845;"	macro
+TIM2_TypeDef	stm8s.h	836;"	typedef	typeref:struct:TIM2_struct
+TIM2_struct	stm8s.h	808;"	struct
+TIM3	stm8s.h	2571;"	macro
+TIM3_ARRH_ARR	stm8s.h	1025;"	macro
+TIM3_ARRH_RESET_VALUE	stm8s.h	973;"	macro
+TIM3_ARRL_ARR	stm8s.h	1026;"	macro
+TIM3_ARRL_RESET_VALUE	stm8s.h	974;"	macro
+TIM3_BaseAddress	stm8s.h	2471;"	macro
+TIM3_CCER1_CC1E	stm8s.h	1018;"	macro
+TIM3_CCER1_CC1P	stm8s.h	1017;"	macro
+TIM3_CCER1_CC2E	stm8s.h	1016;"	macro
+TIM3_CCER1_CC2P	stm8s.h	1015;"	macro
+TIM3_CCER1_RESET_VALUE	stm8s.h	969;"	macro
+TIM3_CCMR1_RESET_VALUE	stm8s.h	967;"	macro
+TIM3_CCMR2_RESET_VALUE	stm8s.h	968;"	macro
+TIM3_CCMR_CCxS	stm8s.h	1013;"	macro
+TIM3_CCMR_ICxF	stm8s.h	1010;"	macro
+TIM3_CCMR_ICxPSC	stm8s.h	1009;"	macro
+TIM3_CCMR_OCM	stm8s.h	1011;"	macro
+TIM3_CCMR_OCxPE	stm8s.h	1012;"	macro
+TIM3_CCR1H_CCR1	stm8s.h	1028;"	macro
+TIM3_CCR1H_RESET_VALUE	stm8s.h	975;"	macro
+TIM3_CCR1L_CCR1	stm8s.h	1029;"	macro
+TIM3_CCR1L_RESET_VALUE	stm8s.h	976;"	macro
+TIM3_CCR2H_CCR2	stm8s.h	1031;"	macro
+TIM3_CCR2H_RESET_VALUE	stm8s.h	977;"	macro
+TIM3_CCR2L_CCR2	stm8s.h	1032;"	macro
+TIM3_CCR2L_RESET_VALUE	stm8s.h	978;"	macro
+TIM3_CNTRH_CNT	stm8s.h	1020;"	macro
+TIM3_CNTRH_RESET_VALUE	stm8s.h	970;"	macro
+TIM3_CNTRL_CNT	stm8s.h	1021;"	macro
+TIM3_CNTRL_RESET_VALUE	stm8s.h	971;"	macro
+TIM3_CR1_ARPE	stm8s.h	988;"	macro
+TIM3_CR1_CEN	stm8s.h	992;"	macro
+TIM3_CR1_OPM	stm8s.h	989;"	macro
+TIM3_CR1_RESET_VALUE	stm8s.h	962;"	macro
+TIM3_CR1_UDIS	stm8s.h	991;"	macro
+TIM3_CR1_URS	stm8s.h	990;"	macro
+TIM3_EGR_CC1G	stm8s.h	1006;"	macro
+TIM3_EGR_CC2G	stm8s.h	1005;"	macro
+TIM3_EGR_RESET_VALUE	stm8s.h	966;"	macro
+TIM3_EGR_UG	stm8s.h	1007;"	macro
+TIM3_IER_CC1IE	stm8s.h	995;"	macro
+TIM3_IER_CC2IE	stm8s.h	994;"	macro
+TIM3_IER_RESET_VALUE	stm8s.h	963;"	macro
+TIM3_IER_UIE	stm8s.h	996;"	macro
+TIM3_PSCR_PSC	stm8s.h	1023;"	macro
+TIM3_PSCR_RESET_VALUE	stm8s.h	972;"	macro
+TIM3_SR1_CC1IF	stm8s.h	999;"	macro
+TIM3_SR1_CC2IF	stm8s.h	998;"	macro
+TIM3_SR1_RESET_VALUE	stm8s.h	964;"	macro
+TIM3_SR1_UIF	stm8s.h	1000;"	macro
+TIM3_SR2_CC1OF	stm8s.h	1003;"	macro
+TIM3_SR2_CC2OF	stm8s.h	1002;"	macro
+TIM3_SR2_RESET_VALUE	stm8s.h	965;"	macro
+TIM3_TypeDef	stm8s.h	956;"	typedef	typeref:struct:TIM3_struct
+TIM3_struct	stm8s.h	936;"	struct
+TIM4	stm8s.h	2577;"	macro
+TIM4_ARR_ARR	stm8s.h	1094;"	macro
+TIM4_ARR_RESET_VALUE	stm8s.h	1068;"	macro
+TIM4_BaseAddress	stm8s.h	2472;"	macro
+TIM4_CNTR_CNT	stm8s.h	1090;"	macro
+TIM4_CNTR_RESET_VALUE	stm8s.h	1066;"	macro
+TIM4_CR1_ARPE	stm8s.h	1078;"	macro
+TIM4_CR1_CEN	stm8s.h	1082;"	macro
+TIM4_CR1_OPM	stm8s.h	1079;"	macro
+TIM4_CR1_RESET_VALUE	stm8s.h	1062;"	macro
+TIM4_CR1_UDIS	stm8s.h	1081;"	macro
+TIM4_CR1_URS	stm8s.h	1080;"	macro
+TIM4_EGR_RESET_VALUE	stm8s.h	1065;"	macro
+TIM4_EGR_UG	stm8s.h	1088;"	macro
+TIM4_IER_RESET_VALUE	stm8s.h	1063;"	macro
+TIM4_IER_UIE	stm8s.h	1084;"	macro
+TIM4_PSCR_PSC	stm8s.h	1092;"	macro
+TIM4_PSCR_RESET_VALUE	stm8s.h	1067;"	macro
+TIM4_SR1_RESET_VALUE	stm8s.h	1064;"	macro
+TIM4_SR1_UIF	stm8s.h	1086;"	macro
+TIM4_TypeDef	stm8s.h	1056;"	typedef	typeref:struct:TIM4_struct
+TIM4_struct	stm8s.h	1042;"	struct
+TIM5	stm8s.h	2581;"	macro
+TIM5_ARRH_ARR	stm8s.h	1222;"	macro
+TIM5_ARRH_RESET_VALUE	stm8s.h	1151;"	macro
+TIM5_ARRL_ARR	stm8s.h	1223;"	macro
+TIM5_ARRL_RESET_VALUE	stm8s.h	1152;"	macro
+TIM5_BaseAddress	stm8s.h	2473;"	macro
+TIM5_CCER1_CC1E	stm8s.h	1212;"	macro
+TIM5_CCER1_CC1P	stm8s.h	1211;"	macro
+TIM5_CCER1_CC2E	stm8s.h	1210;"	macro
+TIM5_CCER1_CC2P	stm8s.h	1209;"	macro
+TIM5_CCER1_RESET_VALUE	stm8s.h	1146;"	macro
+TIM5_CCER2_CC3E	stm8s.h	1215;"	macro
+TIM5_CCER2_CC3P	stm8s.h	1214;"	macro
+TIM5_CCER2_RESET_VALUE	stm8s.h	1147;"	macro
+TIM5_CCMR1_RESET_VALUE	stm8s.h	1143;"	macro
+TIM5_CCMR2_RESET_VALUE	stm8s.h	1144;"	macro
+TIM5_CCMR3_RESET_VALUE	stm8s.h	1145;"	macro
+TIM5_CCMR_CCxS	stm8s.h	1207;"	macro
+TIM5_CCMR_ICxF	stm8s.h	1204;"	macro
+TIM5_CCMR_ICxPSC	stm8s.h	1203;"	macro
+TIM5_CCMR_OCM	stm8s.h	1205;"	macro
+TIM5_CCMR_OCxPE	stm8s.h	1206;"	macro
+TIM5_CCMR_TIxDirect_Set	stm8s.h	1234;"	macro
+TIM5_CCR1H_CCR1	stm8s.h	1225;"	macro
+TIM5_CCR1H_RESET_VALUE	stm8s.h	1153;"	macro
+TIM5_CCR1L_CCR1	stm8s.h	1226;"	macro
+TIM5_CCR1L_RESET_VALUE	stm8s.h	1154;"	macro
+TIM5_CCR2H_CCR2	stm8s.h	1228;"	macro
+TIM5_CCR2H_RESET_VALUE	stm8s.h	1155;"	macro
+TIM5_CCR2L_CCR2	stm8s.h	1229;"	macro
+TIM5_CCR2L_RESET_VALUE	stm8s.h	1156;"	macro
+TIM5_CCR3H_CCR3	stm8s.h	1231;"	macro
+TIM5_CCR3H_RESET_VALUE	stm8s.h	1157;"	macro
+TIM5_CCR3L_CCR3	stm8s.h	1232;"	macro
+TIM5_CCR3L_RESET_VALUE	stm8s.h	1158;"	macro
+TIM5_CNTRH_CNT	stm8s.h	1217;"	macro
+TIM5_CNTRH_RESET_VALUE	stm8s.h	1148;"	macro
+TIM5_CNTRL_CNT	stm8s.h	1218;"	macro
+TIM5_CNTRL_RESET_VALUE	stm8s.h	1149;"	macro
+TIM5_CR1_ARPE	stm8s.h	1168;"	macro
+TIM5_CR1_CEN	stm8s.h	1172;"	macro
+TIM5_CR1_OPM	stm8s.h	1169;"	macro
+TIM5_CR1_RESET_VALUE	stm8s.h	1136;"	macro
+TIM5_CR1_UDIS	stm8s.h	1171;"	macro
+TIM5_CR1_URS	stm8s.h	1170;"	macro
+TIM5_CR2_MMS	stm8s.h	1175;"	macro
+TIM5_CR2_RESET_VALUE	stm8s.h	1137;"	macro
+TIM5_CR2_TI1S	stm8s.h	1174;"	macro
+TIM5_EGR_CC1G	stm8s.h	1200;"	macro
+TIM5_EGR_CC2G	stm8s.h	1199;"	macro
+TIM5_EGR_CC3G	stm8s.h	1198;"	macro
+TIM5_EGR_RESET_VALUE	stm8s.h	1142;"	macro
+TIM5_EGR_TG	stm8s.h	1197;"	macro
+TIM5_EGR_UG	stm8s.h	1201;"	macro
+TIM5_IER_CC1IE	stm8s.h	1184;"	macro
+TIM5_IER_CC2IE	stm8s.h	1183;"	macro
+TIM5_IER_CC3IE	stm8s.h	1182;"	macro
+TIM5_IER_RESET_VALUE	stm8s.h	1139;"	macro
+TIM5_IER_TIE	stm8s.h	1181;"	macro
+TIM5_IER_UIE	stm8s.h	1185;"	macro
+TIM5_PSCR_PSC	stm8s.h	1220;"	macro
+TIM5_PSCR_RESET_VALUE	stm8s.h	1150;"	macro
+TIM5_SMCR_MSM	stm8s.h	1177;"	macro
+TIM5_SMCR_RESET_VALUE	stm8s.h	1138;"	macro
+TIM5_SMCR_SMS	stm8s.h	1179;"	macro
+TIM5_SMCR_TS	stm8s.h	1178;"	macro
+TIM5_SR1_CC1IF	stm8s.h	1190;"	macro
+TIM5_SR1_CC2IF	stm8s.h	1189;"	macro
+TIM5_SR1_CC3IF	stm8s.h	1188;"	macro
+TIM5_SR1_RESET_VALUE	stm8s.h	1140;"	macro
+TIM5_SR1_TIF	stm8s.h	1187;"	macro
+TIM5_SR1_UIF	stm8s.h	1191;"	macro
+TIM5_SR2_CC1OF	stm8s.h	1195;"	macro
+TIM5_SR2_CC2OF	stm8s.h	1194;"	macro
+TIM5_SR2_CC3OF	stm8s.h	1193;"	macro
+TIM5_SR2_RESET_VALUE	stm8s.h	1141;"	macro
+TIM5_TypeDef	stm8s.h	1130;"	typedef	typeref:struct:TIM5_struct
+TIM5_struct	stm8s.h	1105;"	struct
+TIM6	stm8s.h	2582;"	macro
+TIM6_ARR_ARR	stm8s.h	1303;"	macro
+TIM6_ARR_RESET_VALUE	stm8s.h	1268;"	macro
+TIM6_BaseAddress	stm8s.h	2474;"	macro
+TIM6_CNTR_CNT	stm8s.h	1299;"	macro
+TIM6_CNTR_RESET_VALUE	stm8s.h	1266;"	macro
+TIM6_CR1_ARPE	stm8s.h	1278;"	macro
+TIM6_CR1_CEN	stm8s.h	1282;"	macro
+TIM6_CR1_OPM	stm8s.h	1279;"	macro
+TIM6_CR1_RESET_VALUE	stm8s.h	1260;"	macro
+TIM6_CR1_UDIS	stm8s.h	1281;"	macro
+TIM6_CR1_URS	stm8s.h	1280;"	macro
+TIM6_CR2_MMS	stm8s.h	1284;"	macro
+TIM6_CR2_RESET_VALUE	stm8s.h	1261;"	macro
+TIM6_EGR_RESET_VALUE	stm8s.h	1265;"	macro
+TIM6_EGR_TG	stm8s.h	1296;"	macro
+TIM6_EGR_UG	stm8s.h	1297;"	macro
+TIM6_IER_RESET_VALUE	stm8s.h	1263;"	macro
+TIM6_IER_TIE	stm8s.h	1290;"	macro
+TIM6_IER_UIE	stm8s.h	1291;"	macro
+TIM6_PSCR_PSC	stm8s.h	1301;"	macro
+TIM6_PSCR_RESET_VALUE	stm8s.h	1267;"	macro
+TIM6_SMCR_MSM	stm8s.h	1286;"	macro
+TIM6_SMCR_RESET_VALUE	stm8s.h	1262;"	macro
+TIM6_SMCR_SMS	stm8s.h	1288;"	macro
+TIM6_SMCR_TS	stm8s.h	1287;"	macro
+TIM6_SR1_RESET_VALUE	stm8s.h	1264;"	macro
+TIM6_SR1_TIF	stm8s.h	1293;"	macro
+TIM6_SR1_UIF	stm8s.h	1294;"	macro
+TIM6_TypeDef	stm8s.h	1256;"	typedef	typeref:struct:TIM6_struct
+TIM6_struct	stm8s.h	1244;"	struct
+TINY	stm8s.h	114;"	macro
+TINY	stm8s.h	120;"	macro
+TINY	stm8s.h	134;"	macro
+TPR	stm8s.h	2055;"	member	struct:__anon5
+TRISER	stm8s.h	1327;"	member	struct:I2C_struct
+TRUE	stm8s.h	219;"	enumerator	enum:__anon1
+TSR	stm8s.h	2054;"	member	struct:__anon5
+TXCRCR	stm8s.h	1689;"	member	struct:SPI_struct
+TxMailbox	stm8s.h	2082;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon7
+U16_MAX	stm8s.h	231;"	macro
+U32_MAX	stm8s.h	234;"	macro
+U8	led.h	24;"	macro
+U8_MAX	stm8s.h	228;"	macro
+UART1	stm8s.h	2549;"	macro
+UART1_BRR1_DIVM	stm8s.h	1799;"	macro
+UART1_BRR1_RESET_VALUE	stm8s.h	1772;"	macro
+UART1_BRR2_DIVF	stm8s.h	1802;"	macro
+UART1_BRR2_DIVM	stm8s.h	1801;"	macro
+UART1_BRR2_RESET_VALUE	stm8s.h	1773;"	macro
+UART1_BaseAddress	stm8s.h	2466;"	macro
+UART1_CR1_M	stm8s.h	1807;"	macro
+UART1_CR1_PCEN	stm8s.h	1809;"	macro
+UART1_CR1_PIEN	stm8s.h	1811;"	macro
+UART1_CR1_PS	stm8s.h	1810;"	macro
+UART1_CR1_R8	stm8s.h	1804;"	macro
+UART1_CR1_RESET_VALUE	stm8s.h	1774;"	macro
+UART1_CR1_T8	stm8s.h	1805;"	macro
+UART1_CR1_UARTD	stm8s.h	1806;"	macro
+UART1_CR1_WAKE	stm8s.h	1808;"	macro
+UART1_CR2_ILIEN	stm8s.h	1816;"	macro
+UART1_CR2_REN	stm8s.h	1818;"	macro
+UART1_CR2_RESET_VALUE	stm8s.h	1775;"	macro
+UART1_CR2_RIEN	stm8s.h	1815;"	macro
+UART1_CR2_RWU	stm8s.h	1819;"	macro
+UART1_CR2_SBK	stm8s.h	1820;"	macro
+UART1_CR2_TCIEN	stm8s.h	1814;"	macro
+UART1_CR2_TEN	stm8s.h	1817;"	macro
+UART1_CR2_TIEN	stm8s.h	1813;"	macro
+UART1_CR3_CKEN	stm8s.h	1824;"	macro
+UART1_CR3_CPHA	stm8s.h	1826;"	macro
+UART1_CR3_CPOL	stm8s.h	1825;"	macro
+UART1_CR3_LBCL	stm8s.h	1827;"	macro
+UART1_CR3_LINEN	stm8s.h	1822;"	macro
+UART1_CR3_RESET_VALUE	stm8s.h	1776;"	macro
+UART1_CR3_STOP	stm8s.h	1823;"	macro
+UART1_CR4_ADD	stm8s.h	1832;"	macro
+UART1_CR4_LBDF	stm8s.h	1831;"	macro
+UART1_CR4_LBDIEN	stm8s.h	1829;"	macro
+UART1_CR4_LBDL	stm8s.h	1830;"	macro
+UART1_CR4_RESET_VALUE	stm8s.h	1777;"	macro
+UART1_CR5_HDSEL	stm8s.h	1836;"	macro
+UART1_CR5_IREN	stm8s.h	1838;"	macro
+UART1_CR5_IRLP	stm8s.h	1837;"	macro
+UART1_CR5_NACK	stm8s.h	1835;"	macro
+UART1_CR5_RESET_VALUE	stm8s.h	1778;"	macro
+UART1_CR5_SCEN	stm8s.h	1834;"	macro
+UART1_GTR_RESET_VALUE	stm8s.h	1779;"	macro
+UART1_PSCR_RESET_VALUE	stm8s.h	1780;"	macro
+UART1_SR_FE	stm8s.h	1796;"	macro
+UART1_SR_IDLE	stm8s.h	1793;"	macro
+UART1_SR_NF	stm8s.h	1795;"	macro
+UART1_SR_OR	stm8s.h	1794;"	macro
+UART1_SR_PE	stm8s.h	1797;"	macro
+UART1_SR_RESET_VALUE	stm8s.h	1771;"	macro
+UART1_SR_RXNE	stm8s.h	1792;"	macro
+UART1_SR_TC	stm8s.h	1791;"	macro
+UART1_SR_TXE	stm8s.h	1790;"	macro
+UART1_TypeDef	stm8s.h	1765;"	typedef	typeref:struct:UART1_struct
+UART1_struct	stm8s.h	1751;"	struct
+UART2	stm8s.h	2553;"	macro
+UART2_BRR1_DIVM	stm8s.h	1899;"	macro
+UART2_BRR1_RESET_VALUE	stm8s.h	1871;"	macro
+UART2_BRR2_DIVF	stm8s.h	1902;"	macro
+UART2_BRR2_DIVM	stm8s.h	1901;"	macro
+UART2_BRR2_RESET_VALUE	stm8s.h	1872;"	macro
+UART2_BaseAddress	stm8s.h	2467;"	macro
+UART2_CR1_M	stm8s.h	1907;"	macro
+UART2_CR1_PCEN	stm8s.h	1909;"	macro
+UART2_CR1_PIEN	stm8s.h	1911;"	macro
+UART2_CR1_PS	stm8s.h	1910;"	macro
+UART2_CR1_R8	stm8s.h	1904;"	macro
+UART2_CR1_RESET_VALUE	stm8s.h	1873;"	macro
+UART2_CR1_T8	stm8s.h	1905;"	macro
+UART2_CR1_UARTD	stm8s.h	1906;"	macro
+UART2_CR1_WAKE	stm8s.h	1908;"	macro
+UART2_CR2_ILIEN	stm8s.h	1916;"	macro
+UART2_CR2_REN	stm8s.h	1918;"	macro
+UART2_CR2_RESET_VALUE	stm8s.h	1874;"	macro
+UART2_CR2_RIEN	stm8s.h	1915;"	macro
+UART2_CR2_RWU	stm8s.h	1919;"	macro
+UART2_CR2_SBK	stm8s.h	1920;"	macro
+UART2_CR2_TCIEN	stm8s.h	1914;"	macro
+UART2_CR2_TEN	stm8s.h	1917;"	macro
+UART2_CR2_TIEN	stm8s.h	1913;"	macro
+UART2_CR3_CKEN	stm8s.h	1924;"	macro
+UART2_CR3_CPHA	stm8s.h	1926;"	macro
+UART2_CR3_CPOL	stm8s.h	1925;"	macro
+UART2_CR3_LBCL	stm8s.h	1927;"	macro
+UART2_CR3_LINEN	stm8s.h	1922;"	macro
+UART2_CR3_RESET_VALUE	stm8s.h	1875;"	macro
+UART2_CR3_STOP	stm8s.h	1923;"	macro
+UART2_CR4_ADD	stm8s.h	1932;"	macro
+UART2_CR4_LBDF	stm8s.h	1931;"	macro
+UART2_CR4_LBDIEN	stm8s.h	1929;"	macro
+UART2_CR4_LBDL	stm8s.h	1930;"	macro
+UART2_CR4_RESET_VALUE	stm8s.h	1876;"	macro
+UART2_CR5_HDSEL	stm8s.h	1936;"	macro
+UART2_CR5_IREN	stm8s.h	1938;"	macro
+UART2_CR5_IRLP	stm8s.h	1937;"	macro
+UART2_CR5_NACK	stm8s.h	1935;"	macro
+UART2_CR5_RESET_VALUE	stm8s.h	1877;"	macro
+UART2_CR5_SCEN	stm8s.h	1934;"	macro
+UART2_CR6_LASE	stm8s.h	1942;"	macro
+UART2_CR6_LDUM	stm8s.h	1940;"	macro
+UART2_CR6_LHDF	stm8s.h	1944;"	macro
+UART2_CR6_LHDIEN	stm8s.h	1943;"	macro
+UART2_CR6_LSF	stm8s.h	1945;"	macro
+UART2_CR6_LSLV	stm8s.h	1941;"	macro
+UART2_CR6_RESET_VALUE	stm8s.h	1878;"	macro
+UART2_GTR_RESET_VALUE	stm8s.h	1879;"	macro
+UART2_PSCR_RESET_VALUE	stm8s.h	1880;"	macro
+UART2_SR_FE	stm8s.h	1896;"	macro
+UART2_SR_IDLE	stm8s.h	1893;"	macro
+UART2_SR_NF	stm8s.h	1895;"	macro
+UART2_SR_OR	stm8s.h	1894;"	macro
+UART2_SR_PE	stm8s.h	1897;"	macro
+UART2_SR_RESET_VALUE	stm8s.h	1870;"	macro
+UART2_SR_RXNE	stm8s.h	1892;"	macro
+UART2_SR_TC	stm8s.h	1891;"	macro
+UART2_SR_TXE	stm8s.h	1890;"	macro
+UART2_TypeDef	stm8s.h	1864;"	typedef	typeref:struct:UART2_struct
+UART2_struct	stm8s.h	1849;"	struct
+UART3	stm8s.h	2558;"	macro
+UART3_BRR1_DIVM	stm8s.h	2002;"	macro
+UART3_BRR1_RESET_VALUE	stm8s.h	1977;"	macro
+UART3_BRR2_DIVF	stm8s.h	2005;"	macro
+UART3_BRR2_DIVM	stm8s.h	2004;"	macro
+UART3_BRR2_RESET_VALUE	stm8s.h	1978;"	macro
+UART3_BaseAddress	stm8s.h	2468;"	macro
+UART3_CR1_M	stm8s.h	2010;"	macro
+UART3_CR1_PCEN	stm8s.h	2012;"	macro
+UART3_CR1_PIEN	stm8s.h	2014;"	macro
+UART3_CR1_PS	stm8s.h	2013;"	macro
+UART3_CR1_R8	stm8s.h	2007;"	macro
+UART3_CR1_RESET_VALUE	stm8s.h	1979;"	macro
+UART3_CR1_T8	stm8s.h	2008;"	macro
+UART3_CR1_UARTD	stm8s.h	2009;"	macro
+UART3_CR1_WAKE	stm8s.h	2011;"	macro
+UART3_CR2_ILIEN	stm8s.h	2019;"	macro
+UART3_CR2_REN	stm8s.h	2021;"	macro
+UART3_CR2_RESET_VALUE	stm8s.h	1980;"	macro
+UART3_CR2_RIEN	stm8s.h	2018;"	macro
+UART3_CR2_RWU	stm8s.h	2022;"	macro
+UART3_CR2_SBK	stm8s.h	2023;"	macro
+UART3_CR2_TCIEN	stm8s.h	2017;"	macro
+UART3_CR2_TEN	stm8s.h	2020;"	macro
+UART3_CR2_TIEN	stm8s.h	2016;"	macro
+UART3_CR3_LINEN	stm8s.h	2025;"	macro
+UART3_CR3_RESET_VALUE	stm8s.h	1981;"	macro
+UART3_CR3_STOP	stm8s.h	2026;"	macro
+UART3_CR4_ADD	stm8s.h	2031;"	macro
+UART3_CR4_LBDF	stm8s.h	2030;"	macro
+UART3_CR4_LBDIEN	stm8s.h	2028;"	macro
+UART3_CR4_LBDL	stm8s.h	2029;"	macro
+UART3_CR4_RESET_VALUE	stm8s.h	1982;"	macro
+UART3_CR6_LASE	stm8s.h	2035;"	macro
+UART3_CR6_LDUM	stm8s.h	2033;"	macro
+UART3_CR6_LHDF	stm8s.h	2037;"	macro
+UART3_CR6_LHDIEN	stm8s.h	2036;"	macro
+UART3_CR6_LSF	stm8s.h	2038;"	macro
+UART3_CR6_LSLV	stm8s.h	2034;"	macro
+UART3_CR6_RESET_VALUE	stm8s.h	1983;"	macro
+UART3_SR_FE	stm8s.h	1999;"	macro
+UART3_SR_IDLE	stm8s.h	1996;"	macro
+UART3_SR_NF	stm8s.h	1998;"	macro
+UART3_SR_OR	stm8s.h	1997;"	macro
+UART3_SR_PE	stm8s.h	2000;"	macro
+UART3_SR_RESET_VALUE	stm8s.h	1976;"	macro
+UART3_SR_RXNE	stm8s.h	1995;"	macro
+UART3_SR_TC	stm8s.h	1994;"	macro
+UART3_SR_TXE	stm8s.h	1993;"	macro
+UART3_TypeDef	stm8s.h	1970;"	typedef	typeref:struct:UART3_struct
+UART3_struct	stm8s.h	1957;"	struct
+VECTOR_ID	stm8s.h	2644;"	macro
+ValBit	stm8s.h	2683;"	macro
+WR	stm8s.h	1620;"	member	struct:WWDG_struct
+WWDG	stm8s.h	2541;"	macro
+WWDG_BaseAddress	stm8s.h	2460;"	macro
+WWDG_CR_RESET_VALUE	stm8s.h	1628;"	macro
+WWDG_CR_T	stm8s.h	1641;"	macro
+WWDG_CR_T6	stm8s.h	1640;"	macro
+WWDG_CR_WDGA	stm8s.h	1639;"	macro
+WWDG_TypeDef	stm8s.h	1622;"	typedef	typeref:struct:WWDG_struct
+WWDG_WR_MSB	stm8s.h	1643;"	macro
+WWDG_WR_RESET_VALUE	stm8s.h	1629;"	macro
+WWDG_WR_W	stm8s.h	1644;"	macro
+WWDG_struct	stm8s.h	1617;"	struct
+_COSMIC_	stm8s.h	73;"	macro
+_IAR_	stm8s.h	77;"	macro
+_RAISONANCE_	stm8s.h	75;"	macro
+__I	stm8s.h	194;"	macro
+__IO	stm8s.h	196;"	macro
+__LED_H__	led.h	23;"	macro
+__MODS0__	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\mods0.h	11;"	macro
+__O	stm8s.h	195;"	macro
+__STM8S_H	stm8s.h	24;"	macro
+__STM8S_STDPERIPH_VERSION	stm8s.h	174;"	macro
+__STM8S_STDPERIPH_VERSION_MAIN	stm8s.h	170;"	macro
+__STM8S_STDPERIPH_VERSION_RC	stm8s.h	173;"	macro
+__STM8S_STDPERIPH_VERSION_SUB1	stm8s.h	171;"	macro
+__STM8S_STDPERIPH_VERSION_SUB2	stm8s.h	172;"	macro
+_stext	stm8_interrupt_vector.c	23;"	prototype	file:
+_vectab	stm8_interrupt_vector.c	25;"	variable
+adc_read	main.c	26;"	function	signature:(void)
+adc_read_end	main.c	63;"	function	signature:(void)
+adc_read_start	main.c	48;"	function	signature:(void)
+bool	stm8s.h	219;"	typedef	typeref:enum:__anon1
+disableInterrupts	stm8s.h	2602;"	macro
+disableInterrupts	stm8s.h	2611;"	macro
+disableInterrupts	stm8s.h	2621;"	macro
+display_DP_at_pos	led.c	291;"	function	signature:(U8 i)
+display_DP_at_pos	led.h	32;"	prototype	signature:(U8 i)
+display_buffer	led.c	71;"	variable	file:
+display_int	led.c	248;"	function	signature:(uint16_t I, char voltmeter)
+display_int	led.h	31;"	prototype	signature:(uint16_t i, char voltmeter)
+enableInterrupts	stm8s.h	2601;"	macro
+enableInterrupts	stm8s.h	2610;"	macro
+enableInterrupts	stm8s.h	2620;"	macro
+halt	stm8s.h	2608;"	macro
+halt	stm8s.h	2617;"	macro
+halt	stm8s.h	2627;"	macro
+int16_t	stm8s.h	200;"	typedef
+int32_t	stm8s.h	201;"	typedef
+int8_t	stm8s.h	199;"	typedef
+interrupt_handler	stm8_interrupt_vector.c	12;"	member	struct:interrupt_vector	file:
+interrupt_handler_t	stm8_interrupt_vector.c	8;"	typedef	file:
+interrupt_instruction	stm8_interrupt_vector.c	11;"	member	struct:interrupt_vector	file:
+interrupt_vector	stm8_interrupt_vector.c	10;"	struct	file:
+main	main.c	79;"	function
+nop	stm8s.h	2605;"	macro
+nop	stm8s.h	2614;"	macro
+nop	stm8s.h	2624;"	macro
+rim	stm8s.h	2603;"	macro
+rim	stm8s.h	2612;"	macro
+rim	stm8s.h	2622;"	macro
+s16	stm8s.h	211;"	typedef
+s32	stm8s.h	210;"	typedef
+s8	stm8s.h	212;"	typedef
+set_display_buf	led.c	201;"	function	signature:(char *str)
+set_display_buf	led.h	29;"	prototype	signature:(char *str)
+show_next_digit	led.c	148;"	function
+show_next_digit	led.h	30;"	prototype	signature:()
+sim	stm8s.h	2604;"	macro
+sim	stm8s.h	2613;"	macro
+sim	stm8s.h	2623;"	macro
+simpleDelay	main.c	16;"	prototype	file:	signature:(uint8_t how_much)
+simpleDelay	main.c	186;"	function	signature:(uint8_t how_much)
+trap	stm8s.h	2606;"	macro
+trap	stm8s.h	2615;"	macro
+trap	stm8s.h	2625;"	macro
+u16	stm8s.h	215;"	typedef
+u32	stm8s.h	214;"	typedef
+u8	stm8s.h	216;"	typedef
+uint16_t	stm8s.h	205;"	typedef
+uint32_t	stm8s.h	206;"	typedef
+uint8_t	stm8s.h	204;"	typedef
+wait_ADC	main.c	57;"	function
+waitforADC	main.c	13;"	variable
+wfi	stm8s.h	2607;"	macro
+wfi	stm8s.h	2616;"	macro
+wfi	stm8s.h	2626;"	macro
