@@ -134,26 +134,10 @@ main()
 			ADC_value = adc_read_end();	
 			//1023 -> 3.3V - having 0.01ohm as shunt resistor for 1A -> ADC = 31
 			//so max value is 33A
-			if (ADC_value >= 310)
-			{
-				// here we have more than 10A, show one decimal
-				value=(uint16_t)((long)ADC_value*(long)10/31);
-				display_int(value, 0);
-				display_DP_at_pos(1);								
-			}
-			else if (ADC_value > 0)
-			{
-				// less than 10A, show two decimals
-				value=(uint16_t)((long)ADC_value*(long)100/31);
-				display_int(value, 0);
-				display_DP_at_pos(0);						
-			}
-			else
-			{
-				set_display_buf("000");
-				display_DP_at_pos(0);
-			}
-								
+			
+			value=(uint16_t)((long)ADC_value*(long)100/31); // send 999 to display_int when 9.99v
+			display_int(value, 1); // send "true" in second parameter to allow auto decimal point
+			
 			waitforADC = 0;
 		}
 	}
