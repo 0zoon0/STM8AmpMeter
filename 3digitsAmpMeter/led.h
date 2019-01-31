@@ -21,7 +21,6 @@
 #pragma once
 #ifndef __LED_H__
 #define __LED_H__
-#define U8 unsigned char
 
 #include "stm8s.h"
 
@@ -29,6 +28,6 @@ void LED_init();
 void set_display_buf(char *str);
 void show_next_digit();
 void display_int(uint16_t i, char voltmeter);
-void display_DP_at_pos(U8 i);
+void display_DP_at_pos(uint8_t i);
 
 #endif // __LED_H__

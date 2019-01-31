@@ -16,8 +16,8 @@
  *             **
  */
 
-static U8 display_buffer[3] = {' ',' ',' '};	// blank by default
-static U8 N_current = 0;											// current digit to display
+static uint8_t display_buffer[3] = {' ',' ',' '};	// blank by default
+static uint8_t N_current = 0;											// current digit to display
 
 /*
  * Number of digit on indicator with common anode
@@ -29,14 +29,14 @@ static U8 N_current = 0;											// current digit to display
 // PB, mask: 0x30 (dec: 48), PB4:0x10=16, PB5:0x20=32
 // To light up a segment we should setup it as PPout -> this arrays are inverse!
 #define PB_BLANK 0x30
-static U8 PB_bits[18] = {48,0,16,16,32,48,48,16,48,48,48,32,48,0,48,48,0,32};
+static uint8_t PB_bits[18] = {48,0,16,16,32,48,48,16,48,48,48,32,48,0,48,48,0,32};
 
 // PC, mask: 0xE0 (dec: 224), PC5:0x20=32, PC6:0x40=64, PC7:0x80=128
 #define PC_BLANK 0xE0
-static U8 PC_bits[18] = {160,160,96,224,224,192,192,160,224,224,224,192,0,224,64,64,64,192};
+static uint8_t PC_bits[18] = {160,160,96,224,224,192,192,160,224,224,224,192,0,224,64,64,64,192};
 
 // PD, mask: 0x0E (dec: 14), PD1:0x02=2, PD2:0x4=4, PD3:0x8=8
-static U8 PD_bits[18] = {6,0,6,4,0,4,6,0,6,4,2,6,6,6,6,2,0,2};
+static uint8_t PD_bits[18] = {6,0,6,4,0,4,6,0,6,4,2,6,6,6,6,2,0,2};
 #define PD_BLANK 0x0E
 
 /** 
@@ -74,7 +74,7 @@ void LED_init()
  * Show next digit - function calls from main() by some system time value amount
  */
 void show_next_digit(){
-	U8 L = display_buffer[N_current] & 0x7f;
+	uint8_t L = display_buffer[N_current] & 0x7f;
 	// first turn all off
 	CLEAR_ANODES();
   // set all cathodes high (so that they are not light up when anodes are high)
@@ -121,7 +121,7 @@ void show_next_digit(){
  * 			if NULL - fill buffer with spaces
  */
 void set_display_buf(char *str){
-	U8 B[3];
+	uint8_t B[3];
 	signed char ch, M = 0, i;
 	N_current = 0; // refresh current digit number
 	// empty buffer
@@ -169,7 +169,7 @@ void set_display_buf(char *str){
  */
 void display_int(uint16_t I, char voltmeter){
 	int rem;
-	U8 pos = 0; //DP position
+	uint8_t pos = 0; //DP position
 	char N = 2, sign = 0, i;
 	if(I < -99 || I > 999){
 		set_display_buf("--E");
@@ -210,7 +210,7 @@ void display_int(uint16_t I, char voltmeter){
  * displays digital point at position i
  * @param i - position to display DP, concequent calls can light up many DPs
  */
-void display_DP_at_pos(U8 i){
+void display_DP_at_pos(uint8_t i){
 	if(i > 2) return;
 	display_buffer[i] |= 0x80;
 }

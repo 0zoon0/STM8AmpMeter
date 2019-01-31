@@ -2,12 +2,22 @@
 #include "led.h"
 
 #define   LED_delay      (1) // one digit emitting time
-#define   ADC_delay   (200)
+#define   ADC_delay      (50)// delay for reading voltage
+#define   Display_delay (400)// delay for displaying value
+// 1023 -> 3.3V - having 0.1ohm as shunt resistor for 1A -> ADC = 31
+// so max value is about 33A
+// send 999 to display_int when 9.99v
+// testing shows that my shunt resistor is not exactly 0.1ohm, thus 29 value is more accurate
+// using 29 instead of 31
+#define K 29
 
 uint32_t Global_time = 0L;    // global time in ms
 uint32_t ADC_time = 0L;
-U8 waitforADC = 0;
-U8 ADC_started = 0;
+uint32_t Display_time = 0L;
+uint8_t waitforADC = 0;
+uint8_t ADC_started = 0;
+uint16_t ADC_values[3] = { 0, 0, 0};
+uint8_t index = 0;
 
 void simpleDelay(uint8_t how_much);
 
@@ -22,7 +32,7 @@ uint16_t adc_read(void)
 {
 	uint16_t temph = 0;
   uint8_t templ = 0;
-	//unsigned int temp,adc_value;
+	
 	ADC1->CR1 |= ADC1_CR1_ADON; //wake it up
 	ADC1->CR1 |= ADC1_CR1_ADON; //start the conversion, wait few mils
 	simpleDelay(1);
@@ -33,7 +43,7 @@ uint16_t adc_read(void)
 	temph = ADC1->DRH;    
 	temph = (uint16_t)(templ | (uint16_t)(temph << (uint8_t)8));
 	ADC1->CR1 &= (uint8_t)(~ADC1_CR1_ADON); //power it off
-	return ((uint16_t)temph);
+	return (uint16_t)temph;
 }
 
 void adc_read_start(void)
@@ -63,14 +73,68 @@ uint16_t adc_read_end(void)
 	ADC1->CR1 &= (uint8_t)(~ADC1_CR1_ADON); //power it off
 	ADC_started = 0;
 	waitforADC = 0;
-	return ((uint16_t)temph);
+	return (uint16_t)temph;
+}
+
+// store ADC value in a rolling array
+void store(uint16_t value)
+{
+	ADC_values[index++] = value; // store value in array
+	if(index == 3) index = 0; // check index overflow
+}
+
+// get median value
+uint16_t median(uint16_t value1, uint16_t value2, uint16_t value3)
+{
+	if((value1 <= value2) && (value1 <= value3))
+	{
+		return (value2 <= value3) ? value2 : value3;
+	}
+	else
+	{
+		if((value2 <= value1) && (value2 <= value3))
+		{
+			return (value1 <= value3) ? value1 : value3;
+		}
+		else
+		{
+			return (value1 <= value2) ? value1 : value2;
+		}
+	}
+}
+
+// calculate average value
+uint16_t average(uint16_t value1, uint16_t value2, uint16_t value3)
+{
+	uint16_t value = 0;
+	uint8_t count = 0;
+	
+	if(value1 > 0)
+	{
+		value += value1;
+		count++;
+	}
+	if(value2 > 0)
+	{
+		value += value2;
+		count++;
+	}	
+	if(value3 > 0)
+	{
+		value += value3;
+		count++;
+	}	
+	if (count > 0) value /= count;
+	
+	return value;
 }
 
 main()
 {
 	uint32_t T_LED = 0L;  // time of last digit update
 	uint16_t ADC_value = 0;
-	uint16_t value = 0;
+	uint16_t value = 0, value1 = 0, value2 = 0, value3 = 0;
+	uint8_t i, count = 0;
 
 	//	Setup ADC on AIN6/PD6/PIN3 as AIN5/PD5/PIN2 is dead
 	GPIOD->DDR &= (uint8_t)(0b10011111);				//make both as inputs
@@ -115,34 +179,50 @@ main()
 		if(((uint16_t)(Global_time - ADC_time) > ADC_delay) || (ADC_time > Global_time))
 		{
 			ADC_time = Global_time;
-			adc_read_start();
+			//adc_read_start(); // non blocking read - comment out everything bellow this
+			
+			// read three values and get median
+			value1 = adc_read();
+			value2 = adc_read();
+			value3 = adc_read();
+			value = median(value1, value2, value3);
+			
+			store(value*(long)100/K);			
 		}
 		
-		if((U8)(Global_time - T_LED) > LED_delay)
+		if((uint16_t)(Global_time - Display_time) > Display_delay)
+		{
+			Display_time = Global_time;
+			
+			value = average(ADC_values[0], ADC_values[1], ADC_values[2]);
+			display_int(value, 1); // send "true" in second parameter to allow auto decimal point
+		}
+		
+		if (Display_time > Global_time) Display_time = Global_time; // reset Display_time when Global_time overflows
+		
+		if((uint8_t)(Global_time - T_LED) > LED_delay)
 		{
 			T_LED = Global_time;
 			show_next_digit();
 		}
 		
+		// used for non-blocking read
 		if(ADC_started) 
 		{
 			wait_ADC();
 		}
-		
+		// used for non-blocking read
 		if(waitforADC)
 		{
 			ADC_value = adc_read_end();	
-			//1023 -> 3.3V - having 0.01ohm as shunt resistor for 1A -> ADC = 31
-			//so max value is 33A
-			
-			value=(uint16_t)((long)ADC_value*(long)100/31); // send 999 to display_int when 9.99v
-			display_int(value, 1); // send "true" in second parameter to allow auto decimal point
+			store(ADC_value*(long)100/K);
 			
 			waitforADC = 0;
 		}
 	}
 }	
 
+// keep the processor busy for some time
 void simpleDelay(uint8_t how_much)
 {
 	unsigned int i, j;
